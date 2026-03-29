@@ -29,7 +29,14 @@ This can be a lot of information to take in at once, so to keep things simple, t
 
 3) Ask me any questions you need to. If you get confused, or don’t understand how your character works, or don’t understand how the character that you are pretending to be works, or if something happens at night that you don’t understand, or you just need some strategy advice... whatever it is, please ask. I’m neutral, and my job is to help you understand the rules and have fun playing. Let me know when you have a question, and we can talk in private so that nobody knows what question you asked.
 
-4) Play nice. This is a game about deception and trickery, so please treat others with respect and consideration. Kill with grace, and die with dignity. 
+4) Play nice. This is a game about deception and trickery, so please treat others with respect and consideration. Kill with grace, and die with dignity.
+
+## BEFORE THE FIRST NOMINATION
+I am about to call for nominations. To nominate a player, simply say who. For example: “I nominate Bob.” When a player is nominated, everyone votes on whether or not to execute them. For example: I will put my arm out like this (point to Bob), and say “Votes for Bob, starting now.” I move my hand in a clockwise direction (demonstrate this) and if your hand is up when I get to you, that’s a vote, and if your hand is down, that’s not a vote.
+
+Each day, you may vote for as few or as many players as you wish, and whoever has the most votes is executed. This player needs a vote tally of at least 50% of the living players or no execution occurs. On a tie, neither player is executed.
+
+If you die, you are still a major part of the game. You still talk, and you still close your eyes during the night time. Most importantly, you still win or lose with your team. In fact, the game is usually decided by the votes and opinions of the dead players. When you die, you lose your character ability, you may no longer nominate, and you have only one vote for the rest of the game, so use it wisely. 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
 
