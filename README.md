@@ -3,6 +3,7 @@
 </div>
 
 # Förklaring av Regler
+Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela.
 
 You are about to receive either a red or blue token. If blue, you are good. If red, you are evil. The aim of the game if you are good is to find and execute the Demon. If the Demon dies, good wins. The aim of the game if you are evil is to destroy the town. If just two players are left alive, evil wins.
 
