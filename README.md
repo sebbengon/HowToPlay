@@ -1,4 +1,4 @@
-># Council of the Clocktower - How to Play
+# Council of the Clocktower - How to Play
 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
