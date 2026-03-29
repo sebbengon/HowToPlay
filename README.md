@@ -3,7 +3,7 @@
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
 <div align="center">
-  <img src="src/assets/cotc-logo.png" width="200">
+  <img src="src/assets/cotc-logo.png" width="800">
 </div>
 
 This is an unofficial online tool to run Blood on the Clocktower games through Discord or other digital means.
