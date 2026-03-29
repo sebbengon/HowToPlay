@@ -1,0 +1,73 @@
+[
+  {
+    "id": "doomsayer",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Pestläkare",
+    "team": "fabled",
+    "ability": "Om 4 eller fler spelare är kvar i hovet kan var och en av dessa (en gång per spel) offentligt välja att en spelare av deras lag skall kastas ut."
+  },
+  {
+    "id": "angel",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Skydda", "Något Dåligt"],
+    "setup": false,
+    "name": "Rustning",
+    "team": "fabled",
+    "ability": "Något dåligt kan hända vemhelst som är mest ansvarig för att en ny spelare får lämna hovet."
+  },
+  {
+    "id": "buddhist",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Stum",
+    "team": "fabled",
+    "ability": "Under varje dags första 2 minuter får erfarna spelare inte prata."
+  },
+  {
+    "id": "hellslibrarian",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Något Dåligt"],
+    "setup": false,
+    "name": "Huvudbibliotekarie",
+    "team": "fabled",
+    "ability": "Något dåligt kan hända vemhelst som pratat medans Berättaren har bett om tystnad."
+  },
+  {
+    "id": "revolutionary",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Använd"],
+    "setup": false,
+    "name": "Revolutionär",
+    "team": "fabled",
+    "ability": "2 grannar är kända för att vara i samma lag. En gång per spel kan 1 av den registrera fel."
+  },
+  {
+    "id": "fiddler",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Duel",
+    "team": "fabled",
+    "ability": "En gång per spel så får Troninkräktaren i hemlighet välja en Lojal spelare: alla spelare väljer sedan vilken av dessa 2 spelare som vinner, tillsammans med deras lag."
+  },
+  {
+    "id": "toymaker",
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Om det är en natt då en förvisning kan avsluta spelet, och Troninkräktaren är markerad med 'Sista Natten: Ingen Förvisning', så agerar inte Troninkräktaren i natt. (Väck dem inte.)",
+    "reminders": ["Sista Natten: Ingen Förvisning"],
+    "setup": false,
+    "name": "Leksaksmakare",
+    "team": "fabled",
+    "ability": "Troninkräktaren kan välja att inte förvisa & måste göra detta minst en gång per spel. Inkräktare får normal information vid start."
+  }
+]

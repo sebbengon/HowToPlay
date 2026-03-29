@@ -1,0 +1,146 @@
+[
+  {
+    "id": "plaguedoctor",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Pestläkare",
+    "team": "fabled",
+    "ability": "Om 4 eller fler spelare är kvar i hovet kan var och en av dessa (en gång per spel) offentligt välja att en spelare av deras lag skall kastas ut."
+  },
+  {
+    "id": "armor",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Skydda", "Något Dåligt"],
+    "setup": false,
+    "name": "Rustning",
+    "team": "fabled",
+    "ability": "Något dåligt kan hända vemhelst som är mest ansvarig för att en ny spelare får lämna hovet."
+  },
+  {
+    "id": "mute",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Stum",
+    "team": "fabled",
+    "ability": "Under varje dags första 2 minuter får erfarna spelare inte prata."
+  },
+  {
+    "id": "headlibrarian",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Något Dåligt"],
+    "setup": false,
+    "name": "Huvudbibliotekarie",
+    "team": "fabled",
+    "ability": "Något dåligt kan hända vemhelst som pratat medans Berättaren har bett om tystnad."
+  },
+  {
+    "id": "revolutionary",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Använd"],
+    "setup": false,
+    "name": "Revolutionär",
+    "team": "fabled",
+    "ability": "2 grannar är kända för att vara i samma lag. En gång per spel kan 1 av den registrera fel."
+  },
+  {
+    "id": "duel",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Duel",
+    "team": "fabled",
+    "ability": "En gång per spel så får Troninkräktaren i hemlighet välja en Lojal spelare: alla spelare väljer sedan vilken av dessa 2 spelare som vinner, tillsammans med deras lag."
+  },
+  {
+    "id": "toymaker",
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Om det är en natt då en förvisning kan avsluta spelet, och Troninkräktaren är markerad med 'Sista Natten: Ingen Förvisning', så agerar inte Troninkräktaren i natt. (Väck dem inte.)",
+    "reminders": ["Sista Natten: Ingen Förvisning"],
+    "setup": false,
+    "name": "Leksaksmakare",
+    "team": "fabled",
+    "ability": "Troninkräktaren kan välja att inte förvisa & måste göra detta minst en gång per spel. Inkräktare får normal information vid start."
+  },
+  {
+    "id": "fibbin",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Used"],
+    "setup": false,
+    "name": "Fibbin",
+    "team": "fabled",
+    "ability": "Once per game, 1 good player might get false information."
+  },
+  {
+    "id": "duchess",
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "Wake each player marked “Visitor” or “False Info” one at a time. Show them the Duchess token, then fingers (1, 2, 3) equaling the number of evil players marked “Visitor” or, if you are waking the player marked “False Info,” show them any number of fingers except the number of evil players marked “Visitor.”",
+    "reminders": ["Visitor", "False Info"],
+    "setup": false,
+    "name": "Duchess",
+    "team": "fabled",
+    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+  },
+  {
+    "id": "sentinel",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "name": "Sentinel",
+    "team": "fabled",
+    "ability": "There might be 1 extra or 1 fewer Outsider in play."
+  },
+  {
+    "id": "spiritofivory",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["No extra evil"],
+    "setup": false,
+    "name": "Spirit of Ivory",
+    "team": "fabled",
+    "ability": "There can't be more than 1 extra evil player."
+  },
+  {
+    "id": "djinn",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Djinn",
+    "team": "fabled",
+    "ability": "Use the Djinn's special rule. All players know what it is."
+  },
+  {
+    "id": "stormcatcher",
+    "firstNight": 1,
+    "firstNightReminder": "Mark a good player as \"Safe\". Wake each evil player and show them the marked player.",
+    "otherNightReminder": "",
+    "reminders": ["Safe"],
+    "setup": false,
+    "name": "Storm Catcher",
+    "team": "fabled",
+    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
+  },
+  {
+    "id": "deusexfiasco",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": ["Whoops"],
+    "setup": false,
+    "name": "Deus ex Fiasco",
+    "team": "fabled",
+    "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it."
+  }
+]

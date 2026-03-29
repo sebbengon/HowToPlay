@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tb",
+    "name": "Trouble Brewing",
+    "author": "The Pandemonium Institute",
+    "description": "",
+    "level": "Beginner",
+    "roles": [],
+    "isOfficial": true
+  },
+  {
+    "id": "bmr",
+    "name": "Bad Moon Rising",
+    "author": "The Pandemonium Institute",
+    "description": "",
+    "level": "Intermediate",
+    "roles": [],
+    "isOfficial": true
+  },
+  {
+    "id": "snv",
+    "name": "Secrets & Violets",
+    "author": "The Pandemonium Institute",
+    "description": "",
+    "level": "Intermediate",
+    "roles": [],
+    "isOfficial": true
+  }
+]
