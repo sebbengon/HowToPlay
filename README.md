@@ -20,6 +20,16 @@ Most of you will die. This is a good thing! In Ravenswood Bluff, death is not th
 
 There is a lot of information in this game. However, some of it might be wrong. If you are drunk or poisoned, you have no ability, but I will pretend that you do. I am allowed to lie to you—any information that you get may be incorrect, but you will not know if you are drunk or poisoned. For example, if you are the Drunk, you drew a different character token out of the bag and only I know that you are actually the Drunk. Or, if the Poisoner poisons you, you may still wake at night to use your ability, but it won’t work. 
 
+## FOUR RULES
+This can be a lot of information to take in at once, so to keep things simple, there are only four things you need to remember:
+
+1) You may say whatever you want at any time. This is a talking game. You can talk publicly with the group or have private conversations, it is up to you.
+
+2) No peeking. Please keep your character token a secret, and never look into the Grimoire, as it contains all the game characters. If you see something you shouldn’t, it will spoil the fun.
+
+3) Ask me any questions you need to. If you get confused, or don’t understand how your character works, or don’t understand how the character that you are pretending to be works, or if something happens at night that you don’t understand, or you just need some strategy advice... whatever it is, please ask. I’m neutral, and my job is to help you understand the rules and have fun playing. Let me know when you have a question, and we can talk in private so that nobody knows what question you asked.
+
+4) Play nice. This is a game about deception and trickery, so please treat others with respect and consideration. Kill with grace, and die with dignity. 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
 
