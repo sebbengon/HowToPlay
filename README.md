@@ -2,7 +2,7 @@
   <img src="src/assets/cotc-logo.png" width="400">
 </div>
 
-# How to Play
+# Förklaring av Regler
 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
