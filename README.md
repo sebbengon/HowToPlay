@@ -30,7 +30,7 @@ Det här kan vara mycket information att ta in på en gång, så för att hålla
 
 **3) Fråga Berättaren om vad du vill.** Om du blir förvirrad, inte förstår hur din karaktär fungerar eller den du låtsas vara, om något händer på natten som du inte fattar, eller om du bara vill ha lite strategiråd… vad det än är, fråga bara. Berättaren är neutral, är till för att hjälpa dig förstå reglerna och ha roligt. Säg till när du har en fråga, så pratar får du prata med Berättaren privat så att ingen annan vet vad du undrade.
 
-**4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något går emot ditt samvete är det bättre att inte vara med.
+**4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något går emot ditt samvete är det bättre att inte vara med alls.
 
 ## NOMINERING OCH AVSÄTTNING
 Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt vem. Till exempel: “Jag nominerar Sven.” När en spelare blir nominerad röstar alla på om personen ska avsättas eller inte. Till exempel: Berättaren sträcker ut armen och peka på Sven och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.
@@ -47,8 +47,11 @@ Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter 
 <li>Du har **endast en röst kvar** för resten av spelet — så använd den klokt</li>
 </ul>
 
-### How to host a game
-
+# KARAKTÄRER (MANUS)
+Dessa är de karaktärer som vi kommer att spela med i den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
+<div align="center">
+  <img src="src/assets/editions/manus-tb.png">
+</div>
 
 
 ### How to play a game
