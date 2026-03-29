@@ -37,6 +37,8 @@ I am about to call for nominations. To nominate a player, simply say who. For ex
 Each day, you may vote for as few or as many players as you wish, and whoever has the most votes is executed. This player needs a vote tally of at least 50% of the living players or no execution occurs. On a tie, neither player is executed.
 
 If you die, you are still a major part of the game. You still talk, and you still close your eyes during the night time. Most importantly, you still win or lose with your team. In fact, the game is usually decided by the votes and opinions of the dead players. When you die, you lose your character ability, you may no longer nominate, and you have only one vote for the rest of the game, so use it wisely. 
+
+
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
 
