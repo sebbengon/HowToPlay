@@ -32,13 +32,19 @@ Det här kan vara mycket information att ta in på en gång, så för att hålla
 
 **4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något går emot ditt samvete är det bättre att inte vara med.
 
-## BEFORE THE FIRST NOMINATION
-I am about to call for nominations. To nominate a player, simply say who. For example: “I nominate Bob.” When a player is nominated, everyone votes on whether or not to execute them. For example: I will put my arm out like this (point to Bob), and say “Votes for Bob, starting now.” I move my hand in a clockwise direction (demonstrate this) and if your hand is up when I get to you, that’s a vote, and if your hand is down, that’s not a vote.
+## NOMINERING OCH AVSÄTTNING
+Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt vem. Till exempel: “Jag nominerar Sven.” När en spelare blir nominerad röstar alla på om personen ska avsättas eller inte. Till exempel: Berättaren sträcker ut armen och peka på Sven och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.
 
-Each day, you may vote for as few or as many players as you wish, and whoever has the most votes is executed. This player needs a vote tally of at least 50% of the living players or no execution occurs. On a tie, neither player is executed.
+Varje dag får du rösta på ingen eller så många spelare du vill, och den som får flest röster blir avsatt och förvisad. Spelaren måste få minst **50% av rösterna i rådet,** annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster.
 
-If you die, you are still a major part of the game. You still talk, and you still close your eyes during the night time. Most importantly, you still win or lose with your team. In fact, the game is usually decided by the votes and opinions of the dead players. When you die, you lose your character ability, you may no longer nominate, and you have only one vote for the rest of the game, so use it wisely. 
+Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter att prata och ge tips, och du blundar under natten. Framför allt vinner eller förlorar du fortfarande tillsammans med ditt lag. Faktum är att spelet ofta avgörs av de förvisade spelarnas röster och åsikter.
 
+**När du förvisas händer följande:**
+<ul>
+<li>Du förlorar din karaktärs förmåga</li>
+<li>Du får inte längre nominera</li>
+<li>Du har **endast en röst kvar** för resten av spelet — så använd den klokt</li>
+</ul>
 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
