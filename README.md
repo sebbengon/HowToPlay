@@ -1,4 +1,4 @@
-# Blood on the Clocktower Grimoire & Town Square
+# Council of the Clocktower
 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
