@@ -5,26 +5,32 @@
 # Förklaring av Regler
 Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela **Counsil of the Clocktower**.
 
-You are about to receive either a red or blue token. If blue, you are good. If red, you are evil. The aim of the game if you are good is to find and execute the Demon. If the Demon dies, good wins. The aim of the game if you are evil is to destroy the town. If just two players are left alive, evil wins.
+Du kommer att få antingen ett rött eller ett blått karaktärskort. Om du får ett blått tillhör du de Lojala. Om du där emot får ett rött tillhör du bedragarna. Målet i spelet om du är Lojal är att hitta och förvisa Högförrädaren. Om Högförrädaren förvisas vinner de Lojala. Målet i spelet om du är Bedragare är att förvisa och upplösa hela rådet. Om bara två spelare är kvar i rådet vinner Bedragarns.
 
-The game is split into two phases: a day phase and a night phase. During the day, you talk. You will each have a secret identity, a character on the list. Generally, the good players share whatever they know and attempt to find out who is who. Most good players will be telling the truth, but some have an incentive to lie. If you are evil, you should definitely be lying! It is best to pick a good character to pretend to be, spreading as much false information as possible.
+Spelet är uppdelat i två faser: dagfas och nattfas. Under dagen pratar ni. Ni har alla en hemlig identitet, en karaktär från manuset. Generellt delar de Lojala spelarna med sig av allt de vet och försöker lista ut vem som är vem. De flesta Lojala spelare talar sanning, men vissa har anledning att dölja vem de är. Om du är Bedragare bör du definitivt dölja din karaktär! Det är bäst att låtsas vara en Lojal karaktär och sprida så mycket falsk information som du bara kan.
 
-During the night, everybody closes their eyes. I will wake some players so that they can use their ability or gain some type of information. At night, I will be silent, but communicate using hand signals.
+Under natten blundar alla. Berättaren kommer att väcka vissa spelare så att de kan använda sin förmåga eller få någon typ av information. På natten är Berättaren tyst och kommunicerar endast med handsignaler.
 
-Most of you will die. This is a good thing! In Ravenswood Bluff, death is not the end. Some players may even want to die, as they gain information when they do. If you are dead, you still participate in the game, you may still talk, and you still win or lose when your team wins or loses.
+De flesta av er kommer att förvisas på ett eller annat sätt. Men det kan vara en bra sak! I Klocktornets råd är förvisning inte slutet. Vissa spelare vill till och med bli förvisade, eftersom det är då de får sin information.
 
-There is a lot of information in this game. However, some of it might be wrong. If you are drunk or poisoned, you have no ability, but I will pretend that you do. I am allowed to lie to you—any information that you get may be incorrect, but you will not know if you are drunk or poisoned. For example, if you are the Drunk, you drew a different character token out of the bag and only I know that you are actually the Drunk. Or, if the Poisoner poisons you, you may still wake at night to use your ability, but it won’t work. 
+Även om du är förvisad deltar du fortfarande i spelet, du får fortfarande prata, och du vinner eller förlorar tillsammans med ditt lag.
 
-## FOUR RULES
-This can be a lot of information to take in at once, so to keep things simple, there are only four things you need to remember:
+Det här spelet innehåller är mycket information. Men en del av den kan vara falsk. Om du är berusad eller förgiftad har du ingen förmåga, men Berättaren kommer att låtsas som att allt är som det ska. Berättaren får bluffa, all den information du får kan vara felaktig, men du kommer inte veta om du är berusad eller förgiftad.
 
-1) You may say whatever you want at any time. This is a talking game. You can talk publicly with the group or have private conversations, it is up to you.
+Till exempel:
+Om du är Byfånen tror du att du är en annan karaktär då du drog ett annat karaktärskort, och bara Berättaren vet att du egentligen är Byfånen.
+Eller om Giftaren förgiftar dig kan du fortfarande vakna på natten för att använda din förmåga, men den kommer inte att fungera.
 
-2) No peeking. Please keep your character token a secret, and never look into the Grimoire, as it contains all the game characters. If you see something you shouldn’t, it will spoil the fun.
+## FYRA REGLER
+Det här kan vara mycket information att ta in på en gång, så för att hålla det enkelt finns det bara fyra saker du behöver komma ihåg:
 
-3) Ask me any questions you need to. If you get confused, or don’t understand how your character works, or don’t understand how the character that you are pretending to be works, or if something happens at night that you don’t understand, or you just need some strategy advice... whatever it is, please ask. I’m neutral, and my job is to help you understand the rules and have fun playing. Let me know when you have a question, and we can talk in private so that nobody knows what question you asked.
+**1) Du får säga vad du vill,** när du vill. Det här är ett spel där man ska prata. Du kan prata öppet med hela gruppen eller ha privata samtal i avskildhet — det är helt upp till dig.
 
-4) Play nice. This is a game about deception and trickery, so please treat others with respect and consideration. Kill with grace, and die with dignity.
+**2) Inget fuskande.** Försök alldrig smygtitta i Klocktornets Kodex, eftersom den innehåller alla spelarnas karaktärer och och status. Om du ser något du inte borde så förstör det nöjet för dig och för alla andra spelare.
+
+**3) Fråga Berättaren om vad du vill.** Om du blir förvirrad, inte förstår hur din karaktär fungerar eller den du låtsas vara, om något händer på natten som du inte fattar, eller om du bara vill ha lite strategiråd… vad det än är, fråga bara. Berättaren är neutral, är till för att hjälpa dig förstå reglerna och ha roligt. Säg till när du har en fråga, så pratar får du prata med Berättaren privat så att ingen annan vet vad du undrade.
+
+**4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något går emot ditt samvete är det bättre att inte vara med.
 
 ## BEFORE THE FIRST NOMINATION
 I am about to call for nominations. To nominate a player, simply say who. For example: “I nominate Bob.” When a player is nominated, everyone votes on whether or not to execute them. For example: I will put my arm out like this (point to Bob), and say “Votes for Bob, starting now.” I move my hand in a clockwise direction (demonstrate this) and if your hand is up when I get to you, that’s a vote, and if your hand is down, that’s not a vote.
