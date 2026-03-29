@@ -1,10 +1,11 @@
+<div align="center">
+  <img src="src/assets/cotc-logo.png" width="400">
+</div>
 # Council of the Clocktower - How to Play
 
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
-<div align="center">
-  <img src="src/assets/cotc-logo.png" width="400">
-</div>
+
 
 This is an unofficial online tool to run Blood on the Clocktower games through Discord or other digital means.
 It is supposed to aid storytellers and players by allowing them to quickly set up games, run votes and much more.
