@@ -5,7 +5,7 @@
 # Förklaring av Regler
 Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela **Counsil of the Clocktower**.
 
-Du kommer att få antingen ett rött eller ett blått karaktärskort. Om du får ett blått tillhör du de Lojala. Om du där emot får ett rött tillhör du bedragarna. Målet i spelet om du är Lojal är att hitta och förvisa Högförrädaren. Om Högförrädaren förvisas vinner de Lojala. Målet i spelet om du är Bedragare är att förvisa och upplösa hela rådet. Om bara två spelare är kvar i rådet vinner Bedragarns.
+Du kommer att få antingen ett rött eller ett blått karaktärskort. Om du får ett blått tillhör du de Lojala. Om du där emot får ett rött tillhör du Bedragarna. Målet i spelet om du är Lojal är att hitta och förvisa Högförrädaren. Om Högförrädaren förvisas vinner de Lojala. Målet i spelet om du är Bedragare är att förvisa och upplösa hela rådet. Om bara två spelare är kvar i rådet vinner Bedragarns.
 
 Spelet är uppdelat i två faser: dagfas och nattfas. Under dagen pratar ni. Ni har alla en hemlig identitet, en karaktär från manuset. Generellt delar de Lojala spelarna med sig av allt de vet och försöker lista ut vem som är vem. De flesta Lojala spelare talar sanning, men vissa har anledning att dölja vem de är. Om du är Bedragare bör du definitivt dölja din karaktär! Det är bäst att låtsas vara en Lojal karaktär och sprida så mycket falsk information som du bara kan.
 
