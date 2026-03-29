@@ -49,5 +49,5 @@ Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter 
 # KARAKTÄRER (MANUS)
 Dessa är de karaktärer som vi kommer att spela med den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
 <div align="center">
-  <img src="src/assets/tb.png">
+  <img src="src/assets/editions/tb.png">
 </div>
