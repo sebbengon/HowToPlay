@@ -35,7 +35,8 @@ Det här kan vara mycket information att ta in på en gång, så för att hålla
 ## NOMINERING OCH AVSÄTTNING
 Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt vem. Till exempel: “Jag nominerar Sven.” När en spelare blir nominerad röstar alla på om personen ska avsättas eller inte. Till exempel: Berättaren sträcker ut armen och peka på Sven och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.
 
-Varje dag får du rösta på ingen eller så många spelare du vill, och den som får flest röster blir avsatt och förvisad. Spelaren måste få minst **50% av rösterna i rådet,** annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster.
+Varje dag får du rösta på ingen eller så många spelare du vill, och den som får flest röster blir avsatt och förvisad. Spelaren måste få minst 
+**50% av rösterna i rådet,** annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster.
 
 Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter att prata och ge tips, och du blundar under natten. Framför allt vinner eller förlorar du fortfarande tillsammans med ditt lag. Faktum är att spelet ofta avgörs av de förvisade spelarnas röster och åsikter.
 
@@ -46,6 +47,11 @@ Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter 
 <li>Du har **endast en röst kvar** för resten av spelet — så använd den klokt</li>
 </ul>
 
+### How to host a game
+
+
+
+### How to play a game
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
 
 
@@ -56,13 +62,6 @@ It is supposed to aid storytellers and players by allowing them to quickly set u
 
 
 If you want to learn more about how to use the app as a player, kindly created two tutorial videos.
-
-### How to host a game
-
-
-
-### How to play a game
-
 
 
 ## Features
