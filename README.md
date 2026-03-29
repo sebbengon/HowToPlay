@@ -10,12 +10,6 @@ The game is split into two phases: a day phase and a night phase. During the day
 
 During the night, everybody closes their eyes. I will wake some players so that they can use their ability or gain some type of information. At night, I will be silent, but communicate using hand signals.
 
-2 taps on your shoulder or your knee means EYES OPEN
-This means EYES CLOSED
-This means YES and this means NO
-This means GOOD and this means EVIL
-This means 0, 1, 2, 3 and so on
-
 Most of you will die. This is a good thing! In Ravenswood Bluff, death is not the end. Some players may even want to die, as they gain information when they do. If you are dead, you still participate in the game, you may still talk, and you still win or lose when your team wins or loses.
 
 There is a lot of information in this game. However, some of it might be wrong. If you are drunk or poisoned, you have no ability, but I will pretend that you do. I am allowed to lie to you—any information that you get may be incorrect, but you will not know if you are drunk or poisoned. For example, if you are the Drunk, you drew a different character token out of the bag and only I know that you are actually the Drunk. Or, if the Poisoner poisons you, you may still wake at night to use your ability, but it won’t work. 
