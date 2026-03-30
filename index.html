@@ -21,6 +21,11 @@
     margin: 0 auto;     /* centrerar blocket */
     padding: 20px;      /* lite luft runt texten */
   }
+ .top-image {
+  width: 100%;
+  max-height: 400px; /* ändra efter smak */
+  object-fit: contain;
+  margin-bottom: 20px;
 </style>
 
  <meta charset="UTF-8">
@@ -29,7 +34,8 @@
   
 
  <body>
-  <img src="cotc-logo.png" alt="Översta bilden" style="width:100%; max-height:200px; object-fit:contain;">
+  <div class="content">
+  <img src="cotc-logo.png" alt="Översta bilden" class="top-image">
   <h1>Förklaring av regler</h1>
   <p>Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela Counsil of the Clocktower.
 
@@ -76,4 +82,5 @@ När du förvisas händer följande:
 Dessa är de karaktärer som vi kommer att spela med i den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
 </p>
 <img src="manus-tb.png" alt="Nedersta bilden" style="width:100%; max-height:1200px; object-fit:contain;">
+ </div>  
 </body>
