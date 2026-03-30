@@ -1,5 +1,5 @@
 module.exports = {
   // if the app is supposed to run on Github Pages in a subfolder, use the following config:
-  publicPath: process.env.NODE_ENV === "production" ? "/CotC/" : "/"
+  publicPath: process.env.NODE_ENV === "production" ? "/HowToPlay/" : "/"
   // publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
 };
