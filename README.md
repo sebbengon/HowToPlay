@@ -3,11 +3,11 @@
 </div>
 
 # Förklaring av Regler
-Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela **Counsil of the Clocktower**.
+Detta är en sammanställning som förklarar i huvudsak allt det som nya spelare behöver veta för att kunna börja spela **Counsil of the Clocktower**.
 
 Du kommer att få antingen ett rött eller ett blått karaktärskort. Om du får ett blått tillhör du de Lojala. Om du där emot får ett rött tillhör du Bedragarna. Målet i spelet om du är Lojal är att hitta och förvisa Högförrädaren. Om Högförrädaren förvisas vinner de Lojala. Målet i spelet om du är Bedragare är att förvisa och upplösa hela rådet. Om bara två spelare är kvar i rådet vinner Bedragarns.
 
-Spelet är uppdelat i två faser: dagfas och nattfas. Under dagen pratar ni. Ni har alla en hemlig identitet, en karaktär från manuset. Generellt delar de Lojala spelarna med sig av allt de vet och försöker lista ut vem som är vem. De flesta Lojala spelare talar sanning, men vissa har anledning att dölja vem de är. Om du är Bedragare bör du definitivt dölja din karaktär! Det är bäst att låtsas vara en Lojal karaktär och sprida så mycket falsk information som du bara kan.
+Spelet är uppdelat i två faser: dagfas och nattfas. Under dagen pratar ni. Ni har alla en hemlig identitet, en karaktär från manuset. Generellt delar de Lojala spelarna med sig av allt de vet och försöker lista ut vem som är vem. De flesta Lojala spelare talar sanning, men vissa har anledning att dölja vem de är. Om du är Bedragare bör du definitivt dölja din identitet! Det är bäst att låtsas vara en Lojal karaktär och sprida så mycket falsk information som du bara kan.
 
 Under natten blundar alla. Berättaren kommer att väcka vissa spelare så att de kan använda sin förmåga eller få någon typ av information. På natten är Berättaren tyst och kommunicerar endast med handsignaler.
 
@@ -15,28 +15,27 @@ De flesta av er kommer att förvisas på ett eller annat sätt. Men det kan vara
 
 Även om du är förvisad deltar du fortfarande i spelet, du får fortfarande prata, och du vinner eller förlorar tillsammans med ditt lag.
 
-Det här spelet innehåller är mycket information. Men en del av den kan vara falsk. Om du är berusad eller förgiftad har du ingen förmåga, men Berättaren kommer att låtsas som att allt är som det ska. Berättaren får bluffa, all den information du får kan vara felaktig, men du kommer inte veta om du är berusad eller förgiftad.
+Det här spelet innehåller en mängd information. Men en del av den kan vara falsk. Om du är berusad eller förgiftad har du ingen förmåga, men Berättaren kommer att låtsas som att allt är som det ska. Berättaren får bluffa så all den information du får kan vara felaktig, men du kommer inte veta om du är berusad eller förgiftad.
 
 Till exempel:
 Om du är Byfånen tror du att du är en annan karaktär då du drog ett annat karaktärskort, och bara Berättaren vet att du egentligen är Byfånen.
 Eller om Giftaren förgiftar dig kan du fortfarande vakna på natten för att använda din förmåga, men den kommer inte att fungera.
 
 ## FYRA REGLER
-Det här kan vara mycket information att ta in på en gång, så för att hålla det enkelt finns det bara fyra saker du behöver komma ihåg:
+Det här är kanske mycket information att ta in på en gång, så för att hålla det enkelt finns det bara fyra saker du behöver komma ihåg:
 
-**1) Du får säga vad du vill,** när du vill. Det här är ett spel där man ska prata. Du kan prata öppet med hela gruppen eller ha privata samtal i avskildhet — det är helt upp till dig.
+**1) Du får säga vad du vill, när du vill.** Det här är ett spel där man ska prata. Du kan prata öppet med hela gruppen eller ha privata samtal i avskildhet — det är helt upp till dig.
 
-**2) Inget fuskande.** Försök alldrig smygtitta i Klocktornets Kodex, eftersom den innehåller alla spelarnas karaktärer och och status. Om du ser något du inte borde så förstör det nöjet för dig och för alla andra spelare.
+**2) Inget fuskande.** Försök alldrig smygtitta i Klocktornets Kodex, eftersom den innehåller alla spelarnas karaktärer och status. Om du ser något du inte borde så förstör det nöjet och upplevelsen för dig och för alla andra spelare också.
 
-**3) Fråga Berättaren om vad du vill.** Om du blir förvirrad, inte förstår hur din karaktär fungerar eller den du låtsas vara, om något händer på natten som du inte fattar, eller om du bara vill ha lite strategiråd… vad det än är, fråga bara. Berättaren är neutral, är till för att hjälpa dig förstå reglerna och ha roligt. Säg till när du har en fråga, så pratar får du prata med Berättaren privat så att ingen annan vet vad du undrade.
+**3) Fråga Berättaren om vad du vill.** Om du blir förvirrad, inte förstår hur din karaktär eller den du låtsas vara fungerar, om något händer på natten som du inte fattar, eller om du bara vill ha lite strategiråd… vad det än är, fråga bara. Berättaren är neutral, och är till för att hjälpa dig förstå reglerna och ha roligt. Säg till när du har en fråga, så får du prata med Berättaren privat så att ingen annan vet vad du undrade över.
 
-**4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något går emot ditt samvete är det bättre att inte vara med alls.
+**4) Kom ihåg, detta är bara ett spel.** Spelet går ut på att bluffa och bedra så känner du redan nu att det är något som går emot ditt samvete är det bättre att du inte är med.
 
-## NOMINERING OCH AVSÄTTNING
-Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt vem. Till exempel: “Jag nominerar Sven.” När en spelare blir nominerad röstar alla på om personen ska avsättas eller inte. Till exempel: Berättaren sträcker ut armen och peka på Sven och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.
+## NOMINERING OCH FÖRVISNING GENOM AVSÄTTNING
+Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt vem. Till exempel: “Jag nominerar Sven.” När en spelare blir nominerad får alla vara med och rösta på om spelaren ska avsättas eller inte. Till exempel: Berättaren sträcker ut armen och peka på Sven och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.
 
-Varje dag får du rösta på ingen eller så många spelare du vill, och den som får flest röster blir avsatt och förvisad. Spelaren måste få minst 
-**50% av rösterna i rådet,** annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster.
+Varje dag får du rösta på så få eller så många spelare du vill, och den som får flest röster vid dagens slut blir avsatt och förvisad. Spelaren måste få minst **50% av rösterna i rådet,** annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster.
 
 Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter att prata och ge tips, och du blundar under natten. Framför allt vinner eller förlorar du fortfarande tillsammans med ditt lag. Faktum är att spelet ofta avgörs av de förvisade spelarnas röster och åsikter.
 
@@ -48,153 +47,7 @@ Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter 
 </ul>
 
 # KARAKTÄRER (MANUS)
-Dessa är de karaktärer som vi kommer att spela med i den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
+Dessa är de karaktärer som vi kommer att spela med den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
 <div align="center">
-  <img src="src/assets/editions/manus-tb.png">
+  <img src="src/assets/editions/tb.png">
 </div>
-
-
-### How to play a game
-> :warning: **This project is no longer actively maintained** and will only receive critical bug fixes and the remaining Kickstarter preview roles. :warning:
-
-
-
-This is an unofficial online tool to run Blood on the Clocktower games through Discord or other digital means.
-It is supposed to aid storytellers and players by allowing them to quickly set up games, run votes and much more.
-
-
-
-If you want to learn more about how to use the app as a player, kindly created two tutorial videos.
-
-
-## Features
-
-- Public Town Square and Storyteller Grimoire (toggle with **shortcut \[G\]**)
-- Supports custom script JSON generated by the [Script Tool](https://bloodontheclocktower.com/script)
-- Live Session for Storyteller / Players including live voting and character distribution!
-- Includes all 3 base editions, Travelers and Fabled plus all officially spoiled characters so far!
-- Night sheet and reminder text for each character ability to help storytellers
-- Full homebrew support for hosting and playing games with your own sets of characters
-- Many other customization options!
-
-### Custom Script Support
-
-Any custom script generated by the official [Script Tool](https://script.bloodontheclocktower.com/) is supported out of
-the box and you only need to upload it to get the selected set of characters into your grimoire. If you want to customize
-your script further, there is an additional `"_meta"` object that you can add to the script like you would add a normal
-character:
-
-```json
-[
-  {
-    "id": "_meta",
-    "name": "Deadly Penance Day",
-    "author": "TPI",
-    "logo": "https://url.to/your/logo.png"
-  }
-]
-```
-
-This will provide your local Grimoire (and those of your live session players) with more information to show about
-your custom script - instead of "Custom Script" it would show "Deadly Penance Day" on the character reference sheet,
-for example. The logo will be shown to your players after they have enabled custom images in the Grimoire menu.
-
-### Custom Character Support
-
-In order to add custom characters to your local Grimoire, you need to create a JSON definition for them,
-similar to what is provided in the [`roles.json`](https://github.com/bra1n/townsquare/blob/main/src/roles.json) for the 3 base editions. Here's an example of how such a character
-definition file might be written:
-
-```json
-[
-  {
-    "id": "acrobat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
-    "edition": "custom",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 49,
-    "otherNightReminder": "If either good living neighbor is drunk or poisoned, the Acrobat dies.",
-    "reminders": ["Die"],
-    "remindersGlobal": [],
-    "setup": false,
-    "name": "Acrobat",
-    "team": "outsider",
-    "ability": "Each night*, if either good living neighbor is drunk or poisoned, you die."
-  },
-  {
-    "id": "investigator"
-  },
-  {
-    "id": "imp"
-  }
-]
-```
-
-This definition JSON includes a custom character, the Acrobat, and 2 base game characters, the Investigator and the Imp.
-For base game characters, it is sufficient to only provide the ID, similar to what you get from the Script Tool.
-
-**Required properties:** `id`, `name`, `team`, `ability`
-
-- **id**: the internal ID for this character, without spaces or special characters<br>
-  _Note_: this ID needs to be unique and can't be the same as any ID already used by an existing character, otherwise the custom character will be overwritten with the existing role!
-- **image**: a URL to a PNG of the character token icon (should have a transparent background!)<br>
-  _Note_: custom images will only be visible after enabling them in the Grimoire menu!
-- **edition**: the ID of the edition for this character. can be left blank or "custom"
-- **firstNight** / **otherNight**: the position that this character acts on the first / other nights, compared to all
-  other characters<br>
-  _Note_: must be a positive number or zero, with zero being treated as "does not act during the night"
-- **firstNightReminder** / **otherNightReminder**: reminder text for first / other nights
-- **reminders**: reminder tokens, should be an empty array `[]` if none
-- **remindersGlobal**: global reminder tokens that will always be available, no matter if the character is assigned to a player or not
-- **setup**: whether this token affects setup (orange leaf), like the Drunk or Baron
-- **name**: the displayed name of this character
-- **team**: the team of the character, has to be one of `townsfolk`, `outsider`, `minion`, `demon`, `traveler` or `fabled`<br>
-  _Note_: if you create a custom Fabled character, it will be automatically added to the game when the custom script is loaded
-- **ability**: the displayed ability text of the character
-
-## [Code of Conduct](CODE_OF_CONDUCT.md)
-
-## [Contributing](CONTRIBUTING.md)
-
-## Acknowledgements and Copyrights
-
-- [Blood on the Clocktower](https://bloodontheclocktower.com/) is a trademark of Steven Medway and [The Pandemonium Institute](https://www.thepandemoniuminstitute.com/)
-- Night reminders and other auxiliary text written by [Ben Finney](http://bignose.whitetree.org/projects/botc/diy/)
-- Iconography by [Font Awesome](https://fontawesome.com/)
-- Background image copyright and permission granted by [Ryan Maloney](https://www.artstation.com/maloney94)
-- Webfonts by [Google Fonts](https://fonts.google.com/) and [Online Web Fonts](https://www.onlinewebfonts.com/)
-- All other images and icons are copyright to their respective owners
-
-This project and its website are provided free of charge and not affiliated with The Pandemonium Institute in any way.
-
-## Donations
-
-This project will always be available free of charge, since I love building cool things and playing Blood on the Clocktower. If you still want to support me with a donation, you can do that here:
-
-
-
-# Development
-
-npm run dev
-
-# Deployment
-
-## Automated Deployment
-
-This project uses GitHub Actions for automated CI/CD. When you push to the `main` branch:
-
-1. **Linting**: Code is automatically linted to ensure quality
-2. **Build**: Project is built using `npm run build`
-3. **Deploy**: Built files are automatically deployed to GitHub Pages
-
-The site will be available at: `https://robhjoh.github.io/sitt/`
-
-## Manual Deployment
-
-If you need to deploy manually:
-
-```bash
-npm run build
-# Upload dist/ folder to gh-pages branch
-```

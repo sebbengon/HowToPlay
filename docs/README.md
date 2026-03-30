@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="docs/img/cotc-logo.png" width="400">
-</div>
+
+ ![bild](docs/img/cotc-logo.png)
+
 
 # Förklaring av Regler
 Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela **Counsil of the Clocktower**.
@@ -49,9 +49,9 @@ Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter 
 
 # KARAKTÄRER (MANUS)
 Dessa är de karaktärer som vi kommer att spela med i den 26 april 2026. **Tips:** Det är bra att försöka sätta sig in i varje karaktär något så det inte blir helt främmande när spelat börjar.
-<div align="center">
-  <img src="docs/img/manus-tb.png">
-</div>
+
+  ![Bild](docs/img/manus-tb.png)
+
 
 
 ### How to play a game
