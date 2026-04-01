@@ -101,29 +101,21 @@
 <li>Du har endast en röst kvar för resten av spelet — så använd den klokt</li>
 </ul></p>
 
-    <div class="manus-section">
- <div class="text-section">
-<h2>KARAKTÄRER (MANUS)</h2>
-<p>Dessa är de karaktärer som vi kommer att spela med den 26 april. <span class="highlight-black">Tips:</span> Det är bra att försöka sätta sig in i varje karaktär någorlunda så de inte är helt främmande när spelat börjar.</p>
- </div>
-   <img src="manus-tb.png" class="toggle-img" alt="Bild1" style="width:100%; max-height:1200px; object-fit:contain;">
-    </div>
+    
+<div id="manus-display">
+    <h2 id="manus-title">KARAKTÄRER (MANUS)</h2>
+    <p id="manus-text">
+        Dessa är de karaktärer som vi kommer att spela med den 26 april.
+        <span class="highlight-black">Tips:</span>
+        Det är bra att försöka sätta sig in i varje karaktär någorlunda.
+    </p>
 
-     <div class="manus-section">
- <div class="text-section">
-<h2>NATTORDNING FÖRSTA NATTEN (MANUS)</h2>
-<p>Detta visar nattordningen på de karaktärer som vaknar den första natten i spelet och en kort kommentar vad karaktären gör.</p>
- </div>
-   <img src="nattfas-1.png" class="toggle-img" alt="Bild1" style="width:100%; max-height:1200px; object-fit:contain;">
-    </div>
+    <img id="manus-image" 
+         src="manus-tb.png" 
+         alt="Bild 1"
+         style="width:100%; max-height:1200px; object-fit:contain; cursor:pointer;">
+</div>
 
-     <div class="manus-section">
- <div class="text-section">
-<h2>NATTORDNING ÖVRIGA NÄTTER (MANUS)</h2>
-<p>Detta visar nat ordningen på de karaktärer som vaknar övriga nätter och en kort komentar vad karaktären gör.</p>
- </div>
-   <img src="nattfas-2.png" class="toggle-img" alt="Bild1" style="width:100%; max-height:1200px; object-fit:contain;">
-    </div>
     
 <h3>UTTRYCKSFÖRLARING</h3>
 <P>Här följer en förklaring på uttryck som förekommer i karaktärsbeskrivningen.</P>
@@ -163,17 +155,50 @@ Detta är det verktyg som Berättaren använder för att hålla reda på vem som
  </div>  
    
 
-<script>
-document.querySelectorAll('.toggle-img').forEach(img => {
-    img.addEventListener('click', () => {
-        const container = img.closest('.manus-section'); 
-        const textDiv = container.querySelector('.text-section');
 
-        textDiv.style.display = 
-            textDiv.style.display === 'block' ? 'none' : 'block';
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Dina 3 slides
+    const slides = [
+        {
+            title: "KARAKTÄRER (MANUS)",
+            text: `Dessa är de karaktärer som vi kommer att spela med den 26 april.
+                   <span class="highlight-black">Tips:</span> 
+                   Det är bra att försöka sätta sig in i varje karaktär.`,
+            img: "manus-tb.png"
+        },
+        {
+            title: "NATTORDNING FÖRSTA NATTEN (MANUS)",
+            text: "Detta visar nattordningen på de karaktärer som vaknar första natten.",
+            img: "nattfas-1.png"
+        },
+        {
+            title: "NATTORDNING ÖVRIGA NÄTTER (MANUS)",
+            text: "Detta visar nattordningen på de karaktärer som vaknar övriga nätter.",
+            img: "nattfas-2.png"
+        }
+    ];
+
+    let index = 0;  // start på slide 1
+
+    const titleEl = document.getElementById("manus-title");
+    const textEl = document.getElementById("manus-text");
+    const imgEl  = document.getElementById("manus-image");
+
+    // Klick på bilden växlar slide
+    imgEl.addEventListener("click", () => {
+        index = (index + 1) % slides.length; // loop 0 → 1 → 2 → 0
+
+        titleEl.innerHTML = slides[index].title;
+        textEl.innerHTML  = slides[index].text;
+        imgEl.src         = slides[index].img;
+        imgEl.alt         = "Bild " + (index + 1);
     });
+
 });
 </script>
+
 
 
 </body>
