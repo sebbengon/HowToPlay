@@ -162,14 +162,19 @@ Detta är det verktyg som Berättaren använder för att hålla reda på vem som
 
  </div>  
    
+
 <script>
 document.querySelectorAll('.toggle-img').forEach(img => {
     img.addEventListener('click', () => {
-        const textDiv = img.previousElementSibling;
-        textDiv.style.display = textDiv.style.display === 'block' ? 'none' : 'block';
+        const container = img.closest('.manus-section'); 
+        const textDiv = container.querySelector('.text-section');
+
+        textDiv.style.display = 
+            textDiv.style.display === 'block' ? 'none' : 'block';
     });
 });
 </script>
+
 
 </body>
  </html>
