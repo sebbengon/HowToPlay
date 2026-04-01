@@ -161,5 +161,15 @@ Det är den som leder spelet och känner till alla hemligheter.</p>
 Detta är det verktyg som Berättaren använder för att hålla reda på vem som är vilken karaktär och vilken status (berusad, förgiftad, förvisad, mm) en spelare har.</p>
 
  </div>  
+   
+<script>
+document.querySelectorAll('.toggle-img').forEach(img => {
+    img.addEventListener('click', () => {
+        const textDiv = img.previousElementSibling;
+        textDiv.style.display = textDiv.style.display === 'block' ? 'none' : 'block';
+    });
+});
+</script>
+
 </body>
  </html>
