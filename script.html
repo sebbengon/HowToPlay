@@ -2379,6 +2379,21 @@ const ALWAYS_NIGHT_ACTIONS = [
     firstNight: 8,
     firstNightReminder: "Visa kortet DESSA ÄR KUMPANER. Peka på varje kumpan. Visa kortet DESSA KARAKTÄRER ÄR INTE I SPEL. Visa 3 karaktärskort på Lojala karaktärer som inte är i spel."
   }
+{
+    id: "dusk",
+    name: "Skymmning",
+    team: "minion",
+    firstNight: 1,
+    firstNightReminder:"Inled nattfasen."
+      
+  },
+  {
+    id: "dawn",
+    name: "HF info & bluffar",
+    team: "demon",
+    firstNight: 99,
+    firstNightReminder: "Vänta en stund, inled dagfasen."
+  }
 ];
 function changeTeamName(team) {
   return TEAM_NAMES[team] ?? '';
