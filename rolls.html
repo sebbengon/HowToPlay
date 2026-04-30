@@ -237,7 +237,15 @@ fetch("roles.json")   // <-- byt till din JSON-fil
     const container = document.getElementById("role-list");
 
     data
-      .sort((a, b) => a.name.localeCompare(b.name, "sv"))
+      .sort((a, b) => {
+    // sortera team i bestämd ordning
+    const order = ["townsfolk", "outsider", "minion", "demon", "traveler"];
+    const teamDiff = order.indexOf(a.team) - order.indexOf(b.team);
+    if (teamDiff !== 0) return teamDiff;
+
+    // om samma team → sortera alfabetiskt
+    return a.name.localeCompare(b.name, "sv");
+  })
       .forEach(role => {
 
       // skapa wrapper
