@@ -264,7 +264,7 @@ fetch("roles.json")
         if (role.team !== currentTeam) {
           currentTeam = role.team;
 
-          const header = document.createElement("h3");
+          const header = document.createElement("h2");
           header.textContent = changeTeamName(currentTeam);
           header.style.marginTop = "35px";
           header.style.marginBottom = "10px";
