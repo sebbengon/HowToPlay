@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  
+<link href="https://fonts.googleapis.com/css2?family=Cardo::wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How to Play</title>
+
+<style>
+  
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+  body {
+  margin: 0;
+   font-family: 'Cardo', serif;
+  background-color: #f2efe6; /* mjuk beige/varm pergamentkänsla */
+  }
+
+   h3 {
+    font-weight: 700;
+  }
+   h2 {
+    font-weight: 700;
+    margin-top: 40px;   /* avstånd ovanför rubriken */
+    margin-bottom: 4px; /* avstånd under rubriken – ändra denna */
+  }
+  h1 {
+   font-weight: 700;
+   text-align: center;
+ }
+  p, li {
+   font-weight: 300;
+   text-align: left;
+ }
+  
+#manus-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
+
+.content::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Edge */
+}
+.content {
+
+overflow-y: auto;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE / Edge legacy */
+
+  max-width: 750px;
+  max-height: 95vh;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background-color: #ffffff; /* vit textyta */
+  border-radius: 8px;        /* rundade hörn */
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); /* mjuk skugga */
+  overflow-y: auto;
+}
+.top-image {
+  width: 100%;
+  max-height: 400px; /* ändra efter smak */
+  object-fit: contain;
+  margin-bottom: 1px;
+ }
+.highlight-red {
+  font-weight: 700;
+  color: #a52527; /* röd */
+}
+.highlight-orange {
+  font-weight: 700;
+  color: #d57c50; /* orange */
+}
+
+.highlight-blue {
+  font-weight: 700;
+  color: #2b3b87; /* blå */
+}
+.highlight-lblue {
+  font-weight: 700;
+  color: #5790ac; /* ljusblå */
+}
+  .highlight-black {
+  font-weight: 700;
+  color: #000000; /* svart */
+  }
+  .highlight-currant {
+  font-weight: 700;
+  color: #b463c8; /* lila */
+  }
+.highlight-yellow {
+  font-weight: 700;
+  color: #efbd29; /* gul */
+}
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 25px 0 30px 0;
+}
+
+.nav-buttons a {
+  width: 160px;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  background-color: #d57c50;
+  border: 2px solid #000;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+  html, body {
+    background-color: #ffffff;
+    overflow-y: scroll;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* IE/Edge */
+  }
+  
+body::-webkit-scrollbar {
+    display: none;               /* Chrome, Safari */
+  }
+
+   
+  
+
+#manus-image {
+    
+max-height: none;
+    width: 100%;
+  }
+  .content {
+    max-width: 100%;
+    margin: 0;
+    padding: 5;
+    max-height: none;
+    overflow: visible;
+    max-height: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+     }
+.nav-buttons a {
+    width: 100%;
+  }
+
+}
+
+</style>
+</head>
+
+ <body>
+  <div class="content">
+  <a href="index.html"><img src="cotc-logo.png" alt="Översta bilden" class="top-image"></a>
+<div class="nav-buttons">
+  <a href="event.html">Event</a>
+  <a href="regler.html">Regler</a>
+  <a href="rolls.html">Karaktärer</a>
+  <a href="uttryck.html">Uttryck</a>
+</div>
+
+<h1>FÖRKLARING AV REGLER</h1>
+  <p>Detta är en sammanställning som förklarar i huvudsak allt som nya spelare behöver veta för att kunna börja spela <span class="highlight-black">Council of the Clocktower.</span></p>
+   <h2>SPELSTRUKTUR</h2>
+<p></p>Du kommer att få antingen ett <span class="highlight-red">rött</span> eller ett <span class="highlight-blue">blått</span> karaktärskort. <span class="highlight-blue">Om du får ett blått tillhör du de Lojala,</span> <span class="highlight-red">men får du ett rött tillhör du Bedragarna.</span> Målet i spelet om du är Lojal, är att hitta och förvisa Högförrädaren. Om Högförrädaren förvisas vinner de Lojala. Målet i spelet om du är Bedragare, är att upplösa hela rådet genom att förvisa de andra spelarna. Om bara två spelare är kvar i rådet vinner Bedragarna.</p>
+ 
+  <p>Spelrundorna är uppdelde i två faser: dagfas och nattfas. Under dagen pratar ni. Ni har alla en, för de andra spelarna okänd identitet - en av karaktärerna från manuset. Generellt delar de Lojala spelarna med sig av allt de vet och försöker lista ut vem som är vem. De flesta Lojala spelare talar sanning, men vissa har, på grund av sina värdefulla förmågor, anledning att dölja vem de är. Om du är Bedragare bör du definitivt dölja vem du är! Det är bäst att låtsas vara en Lojal karaktär och sprida så mycket falsk information som du bara kan.</p>
+ <p>Under natten blundar alla. Berättaren kommer att väcka vissa spelare så att de kan använda sin förmåga eller få någon typ av information. På natten är Berättaren tyst och kommunicerar endast med handsignaler.</p>
+  
+  <p>De flesta av er kommer att förvisas på ett eller annat sätt. <span class="highlight-black">Men det kan vara en bra sak!</span> I Klocktornets råd är förvisning inte slutet. Vissa spelare vill till och med bli förvisade, eftersom det är då de får sin information.
+  Även om du är förvisad deltar du fortfarande i spelet, du får fortfarande prata, och du vinner eller förlorar tillsammans med ditt lag.
+  Det här spelet innehåller en mängd information. Men en del av den kan vara falsk.</p>
+   </p>Om du är berusad eller förgiftad har du ingen förmåga, men Berättaren kommer att låtsas som att allt är som det ska. Berättaren får då bluffa, så all den information du får kan vara felaktig, men du kommer inte veta att du är berusad eller förgiftad. </p>
+  <p>Till exempel:
+  Om du är Byfånen tror du att du är en Stadsbo, och bara Berättaren vet att du egentligen är Byfånen. Berättaren behandlar dig som om du vore den karaktär som du tror att du är men inget fungerar som det ska. Eller om du blir förgiftad av Förgiftaren kan du fortfarande vakna på natten för att använda din förmåga, men den kommer inte att fungera.</p>
+
+  <h2>FYRA REGLER</h2>
+  <p>Det är mycket information att ta in på en gång, så för att hålla det enkelt så är det bara fyra saker du behöver komma ihåg:</p>
+
+  <p><span class="highlight-black">1) Du får säga vad du vill, när du vill.</span> Det här är ett spel där man ska prata. Du kan prata öppet med hela gruppen eller ha privata samtal i avskildhet — det är helt upp till dig.</p>
+  <p><span class="highlight-black">2) Inget fuskande.</span> Försök aldrig smygtitta i Klocktornets Kodex, eftersom den innehåller alla spelarnas karaktärer och status. Om du ser något du inte borde så förstör det nöjet och upplevelsen för dig och för alla andra spelare.</p>
+  <p><span class="highlight-black">3) Fråga Berättaren om vad du vill.</span> Om du blir förvirrad, inte förstår hur din eller den karaktär du låtsas vara fungerar, om något händer på natten som du inte fattar eller om du bara vill ha lite strategiråd… vad det än är, fråga bara. Berättaren är neutral, är till för att hjälpa dig att förstå reglerna och ha roligt. Säg till när du har en fråga, så kan du prata med Berättaren privat så att ingen annan vet vad du undrade över.</p>
+  <p><span class="highlight-black">4) Kom ihåg, detta är bara ett spel!</span> Spelet går ut på att bluffa och bedra, så känner du redan nu att det är något som går emot ditt samvete är det bättre att inte vara med.</p>
+  <h2>NOMINERING OCH AVSÄTTNING</h2>
+  <p>Under dagen kommer Berättaren att be om nomineringar. För att nominera en spelare säger du helt enkelt namnet på spelaren. Till exempel: “Jag nominerar Sven.” Du kan även nominera dig själv. </p> 
+   
+  <p>När en spelare blir nominerad kan man röstar på om personen ska avsättas eller inte. Den som nominerar får förklara orsaken till nomineringen. Den som blir nominerad får framföra sitt försvar. Berättaren sträcker sedan ut armen och peka på den nominerade och säger: “Omröstning, börjar nu.” Berättaren för sedan handen medurs, och om din hand är uppe när Berättaren kommer till dig räknas det som en röst. Är handen nere räknas det inte som en röst.</p> 
+  Varje dag får du rösta på så få eller så många spelare du vill, och den som fått flest röster i slutet av dagen blir avsatt och förvisad. Spelaren måste få minst 
+  <span class="highlight-black">50% av rösterna i rådet</span>, annars blir spelaren inte avsatt, inte heller vid oavgjort blir någon avsatt även om det fanns tillräkligt med röster. Nominera får man endast göra en gång per dag.
+
+  <p>Om du blir förvisad är du fortfarande en viktig del av spelet. Du fortsätter att prata och ge tips, och du blundar under natten. Framför allt vinner eller förlorar du fortfarande tillsammans med ditt lag. Faktum är att spelet ofta avgörs av de förvisade spelarnas röster och åsikter.</p>
+ <p> När du förvisas händer följande:<br>
+
+<ul>
+<li>Du förlorar din karaktärs förmåga</li>
+<li>Du får inte längre nominera</li>
+<li>Du har endast en röst kvar för resten av spelet — så använd den klokt</li>
+</ul></p>
+
+</div>
+</body>
+</html>

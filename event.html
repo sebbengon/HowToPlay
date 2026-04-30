@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  
+<link href="https://fonts.googleapis.com/css2?family=Cardo::wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How to Play</title>
+
+<style>
+  
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+  body {
+  margin: 0;
+   font-family: 'Cardo', serif;
+  background-color: #f2efe6; /* mjuk beige/varm pergamentkänsla */
+  }
+
+   h3 {
+    font-weight: 700;
+  }
+   h2 {
+    font-weight: 700;
+    margin-top: 40px;   /* avstånd ovanför rubriken */
+    margin-bottom: 4px; /* avstånd under rubriken – ändra denna */
+  }
+  h1 {
+   font-weight: 700;
+   text-align: center;
+ }
+  p, li {
+   font-weight: 300;
+   text-align: left;
+ }
+  
+#manus-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
+
+.content::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Edge */
+}
+.content {
+
+overflow-y: auto;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE / Edge legacy */
+
+
+  max-width: 750px;
+  max-height: 90vh;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background-color: #ffffff; /* vit textyta */
+  border-radius: 8px;        /* rundade hörn */
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); /* mjuk skugga */
+  overflow-y: auto;
+}
+.top-image {
+  width: 100%;
+  max-height: 400px; /* ändra efter smak */
+  object-fit: contain;
+  margin-bottom: 1px;
+ }
+.highlight-red {
+  font-weight: 700;
+  color: #a52527; /* röd */
+}
+.highlight-orange {
+  font-weight: 700;
+  color: #d57c50; /* orange */
+}
+
+.highlight-blue {
+  font-weight: 700;
+  color: #2b3b87; /* blå */
+}
+.highlight-lblue {
+  font-weight: 700;
+  color: #5790ac; /* ljusblå */
+}
+  .highlight-black {
+  font-weight: 700;
+  color: #000000; /* svart */
+  }
+  .highlight-currant {
+  font-weight: 700;
+  color: #b463c8; /* lila */
+  }
+.highlight-yellow {
+  font-weight: 700;
+  color: #efbd29; /* gul */
+}
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 25px 0 30px 0;
+}
+
+.nav-buttons a {
+  width: 160px;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  background-color: #d57c50;
+  border: 2px solid #000;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    html, body {
+    background-color: #ffffff;
+    overflow-y: scroll;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* IE/Edge */
+  }
+  
+body::-webkit-scrollbar {
+    display: none;               /* Chrome, Safari */
+  }
+
+
+  
+#manus-image {
+    
+max-height: none;
+    width: 100%;
+  }
+  .content {
+    max-width: 100%;
+    margin: 0;
+    padding: 5;
+    max-height: none;
+
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+  }
+.nav-buttons a {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+  
+
+ <body>
+  <div class="content">
+  <a href="index.html"><img src="cotc-logo.png" alt="Översta bilden" class="top-image"></a>
+<div class="nav-buttons">
+  <a href="eventhist.html">Historik</a>
+  <a href="regler.html">Regler</a>
+  <a href="rolls.html">Karaktärer</a>
+  <a href="uttryck.html">Uttryck</a>
+</div>
+<h2>KOMMANDE EVENT</H2>
+<P>Nästa omgång är den 10 maj som planen ser ut nu. Då spelar vi med följande manus. Första gången du är med? Läs då gärna igenom reglerna.</p>
+
+<div id="manus-display">
+    <h3 id="manus-title">KARAKTÄRER</h3>
+    
+
+    <img id="manus-image" 
+         src="manus.png" 
+         alt="Bild 1"
+         style="width:100%; object-fit:contain; cursor:default;">
+</div>
+
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Dina 3 slides
+    const slides = [
+        {
+            title: "KARAKTÄRER",
+            text: "Karaktärerna för aktuellt manus.",
+            img: "manus.png"
+        },
+        {
+            title: "NATTORDNING FÖRSTA NATTEN",
+            text: "Nattordningen för de karaktärer som vaknar första natten.",
+            img: "nattfas-1.png"
+        },
+        {
+            title: "NATTORDNING ÖVRIGA NÄTTER",
+            text: "Nattordningen för de karaktärer som vaknar övriga nätter.",
+            img: "nattfas-2.png"
+        }
+    ];
+
+    let index = 0;  // start på slide 1
+
+    const titleEl = document.getElementById("manus-title");
+    
+    const imgEl  = document.getElementById("manus-image");
+
+    // Klick på bilden växlar slide
+    imgEl.addEventListener("click", () => {
+        index = (index + 1) % slides.length; // loop 0 → 1 → 2 → 0
+
+        titleEl.innerHTML = slides[index].title;
+ 
+        imgEl.src         = slides[index].img;
+        imgEl.alt         = "Bild " + (index + 1);
+    });
+
+});
+</script>
+
+</body>
+</html>

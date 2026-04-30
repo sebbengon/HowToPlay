@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  
+<link href="https://fonts.googleapis.com/css2?family=Cardo::wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How to Play</title>
+
+<style>
+  
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+  body {
+    margin: 0;
+   font-family: 'Cardo', serif;
+  background-color: #f2efe6; /* mjuk beige/varm pergamentkänsla */
+  }
+
+   h3 {
+    font-weight: 700;
+  }
+   h2 {
+    font-weight: 700;
+    margin-top: 40px;   /* avstånd ovanför rubriken */
+    margin-bottom: 4px; /* avstånd under rubriken – ändra denna */
+  }
+  h1 {
+   font-weight: 700;
+   text-align: center;
+ }
+  p, li {
+   font-weight: 300;
+   text-align: left;
+ }
+  
+#manus-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
+
+.content::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Edge */
+}
+.content {
+
+overflow-y: auto;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE / Edge legacy */
+
+  max-width: 750px;
+  max-height: 90vh;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background-color: #ffffff; /* vit textyta */
+  border-radius: 8px;        /* rundade hörn */
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); /* mjuk skugga */
+  overflow-y: auto;
+}
+.top-image {
+  width: 100%;
+  max-height: 400px; /* ändra efter smak */
+  object-fit: contain;
+  margin-bottom: 1px;
+ }
+.highlight-red {
+  font-weight: 700;
+  color: #a52527; /* röd */
+}
+.highlight-orange {
+  font-weight: 700;
+  color: #d57c50; /* orange */
+}
+
+.highlight-blue {
+  font-weight: 700;
+  color: #2b3b87; /* blå */
+}
+.highlight-lblue {
+  font-weight: 700;
+  color: #5790ac; /* ljusblå */
+}
+  .highlight-black {
+  font-weight: 700;
+  color: #000000; /* svart */
+  }
+  .highlight-currant {
+  font-weight: 700;
+  color: #b463c8; /* lila */
+  }
+.highlight-yellow {
+  font-weight: 700;
+  color: #efbd29; /* gul */
+}
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 25px 0 30px 0;
+}
+
+.nav-buttons a {
+  width: 160px;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  background-color: #d57c50;
+  border: 2px solid #000;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+   html, body {
+    background-color: #ffffff;
+    overflow-y: scroll;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* IE/Edge */
+  }
+  
+body::-webkit-scrollbar {
+    display: none;               /* Chrome, Safari */
+  }
+
+  
+#manus-image {
+    
+max-height: none;
+    width: 100%;
+  }
+  .content {
+    max-width: 100%;
+    margin: 0;
+    padding: 5;
+    max-height: none;
+
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+
+  .nav-buttons {
+    flex-direction: column;
+  }
+.nav-buttons a {
+    width: 100%;
+  }
+
+}
+
+</style>
+</head>
+  
+
+ <body>
+  <div class="content">
+  <a href="index.html"><img src="cotc-logo.png" alt="Översta bilden" class="top-image"></a>
+<div class="nav-buttons">
+  <a href="event.html">Event</a>
+  <a href="regler.html">Regler</a>
+  <a href="rolls.html">Karaktärer</a>
+  <a href="uttryck.html">Uttryck</a>
+</div>
+<h2>UTTRYCKSFÖRLARING</h2>
+   <p><span class="highlight-blue">Stadsbo:</span><br>
+    En karaktärstyp som tillhör de Lojala. De har förmågor som hjälper det blå laget.</p>
+    <p><span class="highlight-lblue">Lantbo:</span><br>
+    En karaktärstyp som tillhör de Lojala. De har förmågor som försvårar för det blå laget.</p>
+    <p><span class="highlight-orange">Kumpan:</span><br>
+    En karaktärstyp som tillhör Bedragarna. De har förmågor som hjälper det röda laget och/eller försvårar för det blå laget.</p> 
+<p><span class="highlight-red">Högförrädare:</span><br>
+En karaktärstyp som tillhör Bedragarna. De har ofta förmågan att förvisa spelare på natten och förmågor som försvårar för det blå laget. I normala fall finns det bara en Högförrädare i spel och om den förvisas vinner de Lojala.</p>
+ <p><span class="highlight-currant">Resenär:</span><br>
+    En karaktärstyp som är tänkt för spelare som ansluter till spelet sent eller förväntas gå tidigare. Spelaren väljer karaktär men Berättaren väljer dess tillhörighet. De har kraftfulla förmågor men kan bli fördrivna av gruppen.</p>
+<p><span class="highlight-blue">Lojal:</span><br>
+Ett samlingsbegrepp för karaktärer i det blå laget.</p>
+<p><span class="highlight-red">Bedragare:</span><br>
+Ett samlingsbegrepp för karaktärer i det röda laget.</p>
+<p><span class="highlight-black">Tillhörighet:</span><br>
+Det betyder att man tillhör gruppen Lojala eller Bedragare</p>
+<p><span class="highlight-black">Registreras:</span><br>
+Det betyder att du kan bli behandlad som om du vore något annat än vad du är (t.ex. Lojal, Bedragare, karaktärstyp).</p>
+<p><span class="highlight-black">I rådet:</span><br>
+Det betyder att man är kvar i rådet. Man har sin förmåga kvar, kan nominera och rösta obegränsat antal gånger.</p>
+<p><span class="highlight-black">Förvisad:</span><br>
+Det betyder att man inte är kvar i rådet. Man har inte sin förmåga kvar, kan inte nominera och får endast rösta en gång till.</p>
+<p><span class="highlight-black">Avsatt:</span><br>
+När man har fått tillräkligt med röster vid en nominering, men innan man blivit förvisad. En förvisning genom avsättning kan förhindras t.ex. genom karaktärers förmågor.</p>
+<p><span class="highlight-black">Fördriva:</span><br>
+När man förvisar en Resenär kallas det att fördriva. Att fördriva en Resenär fungerar som en vanlig omröstning. Skillnaden är att förvisade spelare kan rösta utan att bli av med sin röstmarkering och de kan rösta även om de inte har den kvar. Det finns inga förmågor som kan hindra en fördrivning.</p>    
+<p><span class="highlight-black">Grannar/Grannar i rådet:</span><br>
+Grannar är de spelare som sitter direkt till höger och till vänster om dig vare sig de är i rådet eller förvisade. Dina grannar i rådet är dina närmsta spelare till höger och till vänster som inte är förvisade även om det är förvisade spelare mellan.</p>
+<p><span class="highlight-black">Kanske:</span><br>
+Om det kanske händer något så är det Berättaren som avgör.</p>
+<p><span class="highlight-black">Förgiftad:</span><br>
+Ett tillstånd där din förmåga inte fungerar. Du vet inte att du är förgiftad men din förmåga verkar fungera som vanligt men det gör den inte.</p>
+<p><span class="highlight-black">Berusad:</span><br>
+Ett annat tematiskt ord för samma tillstånd som förgiftad.</p>
+<p><span class="highlight-black">Berättaren:</span><br>
+Det är den som leder spelet och känner till alla hemligheter.</p> 
+<p><span class="highlight-black">Klocktornets Kodex:</span><br>
+Detta är det verktyg som Berättaren använder för att hålla reda på vem som är vilken karaktär och vilken status (berusad, förgiftad, förvisad, mm) spelarna har.</p>
+
+</div>
+</body>
+</html>
