@@ -192,6 +192,21 @@ max-height: none;
 color: #b463c8; /* lila */
   font-weight: 700;
 }
+.role-item {
+  margin-bottom: 18px;      /* lite mindre luft mellan posterna */
+}
+
+.role-item a {
+  font-size: 1.4rem;        /* större namn */
+  display: block;           /* gör att ability hamnar direkt under */
+  margin-bottom: 4px;       /* tajtare avstånd till ability */
+}
+
+.role-item p {
+  margin: 0;                /* tar bort onödig luft */
+  font-size: 1rem;          /* normal textstorlek */
+  line-height: 1.3;         /* kompakt men läsbart */
+}
 
 </style>
 </head>
@@ -227,7 +242,8 @@ fetch("roles.json")   // <-- byt till din JSON-fil
 
       // skapa wrapper
       const item = document.createElement("div");
-      item.style.marginBottom = "20px";
+      item.classList.add("role-item");
+
 
       // skapa länk + färgklass
       const nameLink = document.createElement("a");
