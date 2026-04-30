@@ -168,42 +168,6 @@ h2 {
     page-break-before: always;
     break-before: page; /* modern standard */
   }
-.night-page {
-  page-break-after: always;
-  padding: 20px;
-}
-
-.night-table {
-  display: grid;
-  grid-template-columns: 60px 200px 1fr;
-  gap: 10px;
-  align-items: start;
-}
-
-.night-row {
-  display: contents;
-}
-
-.night-icon img {
-  width: 50px;
-  height: 50px;
-}
-
-.night-name {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.night-number {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.night-reminder {
-  font-size: 0.95rem;
-  line-height: 1.3;
-}
-
 }
 
   /* Dölj UI */
@@ -2449,46 +2413,7 @@ function renderScript(script) {
     section.appendChild(grid);
     container.appendChild(section);
   }
-    renderNightOrder(script);
 }
-function renderNightPage(container, title, list, nightKey, reminderKey) {
-  const page = document.createElement("section");
-  page.className = "night-page";
-
-  const h2 = document.createElement("h2");
-  h2.textContent = title;
-  page.appendChild(h2);
-
-  const table = document.createElement("div");
-  table.className = "night-table";
-
-  list
-    .sort((a, b) => a[nightKey] - b[nightKey])
-    .forEach(c => {
-      const row = document.createElement("div");
-      row.className = "night-row";
-
-      row.innerHTML = `
-        <div class="night-icon">
-          <img src="https://raw.githubusercontent.com/sebbengon/CotC/master/src/assets/icons/${c.id}.png">
-        </div>
-
-        <div class="night-name name-${c.team}">
-          ${c.name}
-        </div>
-
-        <div class="night-reminder">
-          ${c[reminderKey] || ""}
-        </div>
-      `;
-
-      table.appendChild(row);
-    });
-
-  page.appendChild(table);
-  container.appendChild(page);
-}
-
 async function loadFromClipboard() {
   try {
     const text = await navigator.clipboard.readText();
