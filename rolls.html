@@ -247,7 +247,8 @@ fetch("roles.json")   // <-- byt till din JSON-fil
 
       // skapa länk + färgklass
       const nameLink = document.createElement("a");
-      nameLink.href = "https://bloodontheclocktower.com/" + role.id;
+      const wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
+      nameLink.href = "https://wiki.bloodontheclocktower.com/" + wikiId;
       nameLink.target = "_blank";
       nameLink.classList.add("team-" + role.team); 
       nameLink.textContent = role.name;
