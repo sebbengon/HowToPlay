@@ -112,6 +112,12 @@ h2 {
 }
 
 @media print {
+
+  .night-order {
+    page-break-before: always;
+    break-before: page;
+  }
+}
   body {
     margin: 0;
     font-size: 10pt;              /* 🔑 tajt men läsbar */
@@ -2413,6 +2419,13 @@ function renderScript(script) {
     section.appendChild(grid);
     container.appendChild(section);
   }
+    container.appendChild(
+    renderNightOrder("Första natten", used, "firstNight")
+   );
+
+   container.appendChild(
+   renderNightOrder("Övriga nätter", used, "otherNight")
+  );
 }
 async function loadFromClipboard() {
   try {
@@ -2427,6 +2440,50 @@ async function loadFromClipboard() {
   } catch (err) {
     alert("Kunde inte läsa script från urklippet.\nKontrollera att det är giltig JSON.");
   }
+}
+function renderNightOrder(title, characters, key) {
+  const section = document.createElement("section");
+  section.className = "night-order";
+
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
+  section.appendChild(h2);
+
+  const grid = document.createElement("div");
+  grid.className = "grid";
+
+  const sorted = characters
+    .filter(c => c[key] && c[key] > 0)
+    .sort((a, b) => a[key] - b[key]);
+
+  for (const c of sorted) {
+    const el = document.createElement("div");
+    el.className = "character";
+
+    el.innerHTML = `
+
+<img
+  src="https://raw.githubusercontent.com/sebbengon/CotC/master/src/assets/icons/${c.id}.png"
+  alt="${c.name}"
+  class="character-icon"
+/>
+
+<div class="character-name name-${c.team}">
+  ${c[key]}. ${c.name}
+
+  <div class="character-ability">
+    ${key === "firstNight"
+      ? c.firstNightReminder
+      : c.otherNightReminder}
+  </div>
+</div>
+    `;
+
+    grid.appendChild(el);
+  }
+
+  section.appendChild(grid);
+  return section;
 }
 </script>
 
