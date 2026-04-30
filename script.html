@@ -2363,7 +2363,7 @@ const TEAM_NAMES = {
   traveler:  'RESENÄRER'
 };
 
-const ALWAYS_NIGHT_ACTIONS = [
+const ALWAYS_NIGHT1_ACTIONS = [
   {
     id: "minioninfo",
     name: "Kumpaninfo",
@@ -2379,6 +2379,23 @@ const ALWAYS_NIGHT_ACTIONS = [
     firstNight: 8,
     firstNightReminder: "Visa kortet DESSA ÄR KUMPANER. Peka på varje kumpan. Visa kortet DESSA KARAKTÄRER ÄR INTE I SPEL. Visa 3 karaktärskort på Lojala karaktärer som inte är i spel."
   },
+  {
+    id: "dusk",
+    name: "Skymmning",
+    team: "minion",
+    firstNight: 1,
+    firstNightReminder:"Inled nattfasen."
+      
+  },
+  {
+    id: "dawn",
+    name: "HF info & bluffar",
+    team: "demon",
+    firstNight: 99,
+    firstNightReminder: "Vänta en stund. Avsluta nattfasen."
+  }
+]
+const ALWAYS_NIGHT_ACTIONS = [
 {
     id: "dusk",
     name: "Skymmning",
@@ -2466,6 +2483,10 @@ function renderScript(script) {
 
     const firstNightCharacters = [
   ...used,
+  ...ALWAYS_NIGHT1_ACTIONS
+]
+    const otherNightCharacters = [
+  ...used,
   ...ALWAYS_NIGHT_ACTIONS
 ];
 
@@ -2474,7 +2495,7 @@ container.appendChild(
 );
 
    container.appendChild(
-   renderNightOrder("Övriga nätter", used, "otherNight")
+   renderNightOrder("Övriga nätter", used, otherNightCharacters, "otherNight")
   );
 }
 async function loadFromClipboard() {
