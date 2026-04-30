@@ -120,7 +120,7 @@ overflow-y: auto;
   text-decoration: none;
   font-weight: 700;
   color: #000;
-  background-color: #5790ac;
+  background-color: #d57c50;
   border: 2px solid #000;
   border-radius: 6px;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -163,12 +163,34 @@ max-height: none;
 
   .nav-buttons {
     flex-direction: column;
-    align-items: center;
   }
 .nav-buttons a {
-    width: 80%;
+    width: 100%;
   }
 
+}
+.team-townsfolk {
+  color: #2b3b87; /* blå */
+  font-weight: 700;
+}
+
+.team-outsider {
+  color: #5790ac; /* ljusblå */
+  font-weight: 700;
+}
+
+.team-minion {
+  color: #a52527; /* röd */
+  font-weight: 700;
+}
+
+.team-demon {
+  color: #d57c50; /* orange */
+  font-weight: 700;
+}
+.team-traveler{
+color: #b463c8; /* lila */
+  font-weight: 700;
 }
 
 </style>
@@ -184,28 +206,49 @@ max-height: none;
   <a href="rolls.html">Karaktärer</a>
   <a href="uttryck.html">Uttryck</a>
 </div>
-<h2>!!!UNDER BEARBETNING - SAMTLIGA KARAKTÄRER!!!</h2>
-
+<h2>SAMTLIGA KARAKTÄRER</h2>
 <P>Här följer en lista på alla karaktärer som aktuellt finns att spela med. Varje karaktär är länkad till de officiella orginalkaraktärerna där man kan hitta mer info och strategitips.</p> 
 
-<h3><span class="highlight-blue"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Townsfolk" target="_blank">STADSBOR</a></span></h3>
-<p><span class="highlight-blue"><a href="https://wiki.bloodontheclocktower.com/Acrobat" target="_blank">Akrobaten</span></a><br>
-    Varje natt* väljer du en spelare; du förvisas om den är eller blir berusad eller förgiftad i natt.</p>
-<p><span class="highlight-blue"><a href="https://wiki.bloodontheclocktower.com/Alchemist" target="_blank">Alkemisten</span></a><br>
-    Du har en Kumpanförmåga. När du använder den kan Berättaren uppmana dig att välja annorlunda.</p>
-<p><span class="highlight-blue"><a href="https://wiki.bloodontheclocktower.com/Alsaahir" target="_blank">Dobblaren</span></a><br>
-    Varje dag kan du öppet gissa vilka spelare som är Kumpan(er) och Högförrädare(n). Om du har rätt vinner de Lojala.</p>
+<div id="role-list"></div>
 
-<h3><span class="highlight-lblue"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Outsider" target="_blank">LANTBOR</a></span></h3>
-
-<h3><span class="highlight-orange"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Minion "target="_blank" >KUMPANER</a></span></h3>
-
-<h3><span class="highlight-red"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Demon" target="_blank">HÖGFÖRRÄDARE</a></span></h3>
-
-<h3><span class="highlight-currant"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Traveller" target="_blank" >RESENÄRER</a></span></h3>
-
-<h3><span class="highlight-yellow"><a href="https://wiki.bloodontheclocktower.com/Character_Types#Fabled" target="_blank">LEGENDER</a></span></h3>
 
 </div>
+
+<script>
+fetch("roles.json")   // <-- byt till din JSON-fil
+  .then(response => response.json())
+  .then(data => {
+    
+    const container = document.getElementById("role-list");
+
+    data.forEach(role => {
+
+      // skapa wrapper
+      const item = document.createElement("div");
+      item.style.marginBottom = "20px";
+
+      // skapa länk + färgklass
+      const nameLink = document.createElement("a");
+      nameLink.href = "https://bloodontheclocktower.com/characters/" + role.id;
+      nameLink.target = "_blank";
+      nameLink.classList.add("team-" + role.team); 
+      nameLink.textContent = role.name;
+
+      // ability-text
+      const ability = document.createElement("p");
+      ability.textContent = role.ability;
+
+      // lägg in i wrapper
+      item.appendChild(nameLink);
+      item.appendChild(ability);
+
+      // lägg in i listan
+      container.appendChild(item);
+    });
+
+  })
+  .catch(err => console.error("Kunde inte läsa JSON:", err));
+</script>
+
 </body>
 </html>
