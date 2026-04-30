@@ -221,7 +221,9 @@ fetch("roles.json")   // <-- byt till din JSON-fil
     
     const container = document.getElementById("role-list");
 
-    data.forEach(role => {
+    data
+      .sort((a, b) => a.name.localeCompare(b.name, "sv"))
+      .forEach(role => {
 
       // skapa wrapper
       const item = document.createElement("div");
@@ -229,7 +231,7 @@ fetch("roles.json")   // <-- byt till din JSON-fil
 
       // skapa länk + färgklass
       const nameLink = document.createElement("a");
-      nameLink.href = "https://bloodontheclocktower.com/characters/" + role.id;
+      nameLink.href = "https://bloodontheclocktower.com/" + role.id;
       nameLink.target = "_blank";
       nameLink.classList.add("team-" + role.team); 
       nameLink.textContent = role.name;
