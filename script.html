@@ -2363,6 +2363,23 @@ const TEAM_NAMES = {
   traveler:  'RESENÄRER'
 };
 
+const ALWAYS_NIGHT_ACTIONS = [
+  {
+    id: "minioninfo",
+    name: "Kumpaninfo",
+    team: "minion",
+    firstNight: 5,
+    firstNightReminder:"Om mer än en kumpan, se till så alla får ögonkontakt. Visa kortet DETTA ÄR HÖGFÖRRÄDAREN. Peka på Högförrädaren."
+      
+  },
+  {
+    id: "demoninfo",
+    name: "HF info & bluffar",
+    team: "demon",
+    firstNight: 8,
+    firstNightReminder: "Visa kortet DESSA ÄR KUMPANER. Peka på varje kumpan. Visa kortet DESSA KARAKTÄRER ÄR INTE I SPEL. Visa 3 karaktärskort på Lojala karaktärer som inte är i spel."
+  }
+];
 function changeTeamName(team) {
   return TEAM_NAMES[team] ?? '';
 }
@@ -2432,8 +2449,14 @@ function renderScript(script) {
     container.appendChild(section);
   }
     container.appendChild(
-    renderNightOrder("Första natten", used, "firstNight")
-   );
+    const firstNightCharacters = [
+  ...used,
+  ...ALWAYS_NIGHT_ACTIONS
+];
+
+container.appendChild(
+  renderNightOrder("Första natten", firstNightCharacters, "firstNight")
+);
 
    container.appendChild(
    renderNightOrder("Övriga nätter", used, "otherNight")
