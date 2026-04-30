@@ -117,7 +117,7 @@ h2 {
     page-break-before: always;
     break-before: page;
   }
-}
+
   body {
     margin: 0;
     font-size: 10pt;              /* 🔑 tajt men läsbar */
@@ -174,7 +174,15 @@ h2 {
     page-break-before: always;
     break-before: page; /* modern standard */
   }
+ .night-order .grid {
+  display: grid;
+  grid-template-columns: 1fr;
 }
+ .night-order .character-icon {
+  width: 26px;
+  height: 26px;
+}
+
 
   /* Dölj UI */
   input,
@@ -2469,7 +2477,7 @@ function renderNightOrder(title, characters, key) {
 />
 
 <div class="character-name name-${c.team}">
-  ${c[key]}. ${c.name}
+  ${c.name}
 
   <div class="character-ability">
     ${key === "firstNight"
