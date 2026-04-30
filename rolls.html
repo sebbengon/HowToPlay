@@ -231,51 +231,72 @@ color: #b463c8; /* lila */
 </div>
 
 <script>
-fetch("roles.json")   // <-- byt till din JSON-fil
+const TEAM_NAMES = {
+  townsfolk: 'STADSBOR',
+  outsider:  'LANTBOR',
+  minion:    'KUMPANER',
+  demon:     'HÖGFÖRRÄDARE',
+  traveler:  'RESENÄRER'
+};
+
+function changeTeamName(team) {
+  return TEAM_NAMES[team] ?? '';
+}
+
+fetch("roles.json")
   .then(response => response.json())
   .then(data => {
     
     const container = document.getElementById("role-list");
+    let currentTeam = null;
+
+    const TEAM_ORDER = ["townsfolk", "outsider", "minion", "demon", "traveler"];
 
     data
       .sort((a, b) => {
-    // sortera team i bestämd ordning
-    const order = ["townsfolk", "outsider", "minion", "demon", "traveler"];
-    const teamDiff = order.indexOf(a.team) - order.indexOf(b.team);
-    if (teamDiff !== 0) return teamDiff;
-
-    // om samma team → sortera alfabetiskt
-    return a.name.localeCompare(b.name, "sv");
-  })
+        const teamDiff = TEAM_ORDER.indexOf(a.team) - TEAM_ORDER.indexOf(b.team);
+        if (teamDiff !== 0) return teamDiff;
+        return a.name.localeCompare(b.name, "sv");
+      })
       .forEach(role => {
 
-      // skapa wrapper
-      const item = document.createElement("div");
-      item.classList.add("role-item");
+        // Ny teamrubrik när team ändras
+        if (role.team !== currentTeam) {
+          currentTeam = role.team;
 
+          const header = document.createElement("h3");
+          header.textContent = changeTeamName(currentTeam);
+          header.style.marginTop = "35px";
+          header.style.marginBottom = "10px";
+          container.appendChild(header);
+        }
 
-      // skapa länk + färgklass
-      const nameLink = document.createElement("a");
-      const wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
-      nameLink.href = "https://wiki.bloodontheclocktower.com/" + wikiId;
-      nameLink.target = "_blank";
-      nameLink.classList.add("team-" + role.team); 
-      nameLink.textContent = role.name;
+        // Skapa wrapper
+        const item = document.createElement("div");
+        item.classList.add("role-item");
 
-      // ability-text
-      const ability = document.createElement("p");
-      ability.textContent = role.ability;
+        // Namnlänk (fixar versal första bokstaven)
+        const wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
 
-      // lägg in i wrapper
-      item.appendChild(nameLink);
-      item.appendChild(ability);
+        const nameLink = document.createElement("a");
+        nameLink.href = "https://wiki.bloodontheclocktower.com/" + wikiId;
+        nameLink.target = "_blank";
+        nameLink.classList.add("team-" + role.team);
+        nameLink.textContent = role.name;
 
-      // lägg in i listan
-      container.appendChild(item);
-    });
+        // Ability
+        const ability = document.createElement("p");
+        ability.textContent = role.ability;
+
+        // Lägg in i DOM
+        item.appendChild(nameLink);
+        item.appendChild(ability);
+        container.appendChild(item);
+      });
 
   })
   .catch(err => console.error("Kunde inte läsa JSON:", err));
+
 </script>
 
 </body>
