@@ -144,7 +144,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet på dagen, välj öppet en spelare: är det Högförrädaren blir den förvisad."
+    "ability": "En gång under spelet på dagen, du får välja öppet en spelare: är det Högförrädaren blir den förvisad."
   },
   {
     "id": "soldier",
@@ -197,7 +197,7 @@
     "reminders": [],
     "remindersGlobal": ["Är Byfånen"],
     "setup": true,
-    "ability": "Du vet inte att du är Byfånen. Du tror att du är Stadsbo, men det är du inte."
+    "ability": "Du vet inte att du är Byfånen. Du tror att du är en Stadsbo, men det är du inte."
   },
   {
     "id": "recluse",
@@ -210,7 +210,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Du kanske registreras som Bedragare, Kumpan eller Högförrädare, även om du är förvisad."
+    "ability": "Du kanske registreras som Bedragare och Kumpan eller Högförrädare, även om du är förvisad."
   },
   {
     "id": "saint",
@@ -369,7 +369,7 @@
     "otherNightReminder": "Domaren väljer en spelare och en karaktär.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt*, välj en spelare och gissar spelarens karaktär: gissar du fel förvisas du."
+    "ability": "Varje natt*, välj en spelare och gissa dess karaktär: gissar du fel förvisas du."
   },
   {
     "id": "gossip",
@@ -412,7 +412,7 @@
     "reminders": ["Återinsatt",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten*, välj en förvisad spelare: om du väljer en Stadsbo återinsätts den i rådet."
+    "ability": "En gång under spelet på natten*, välj en förvisad spelare: om du väljer en Stadsbo återinsätts den i rådet."
   },
   {
     "id": "minstrel",
@@ -425,7 +425,7 @@
     "otherNightReminder": "",
     "reminders": ["Alla är berusade"],
     "setup": false,
-    "ability": "När en Kumpan blir avsatt och förvisas blir alla andra spelare (utom Resenärer) berusade fram till skymningen imorgon."
+    "ability": "När en Kumpan avsätts och förvisas blir alla andra spelare (ej Resenärer) berusade fram till skymningen imorgon."
   },
   {
     "id": "tealady",
