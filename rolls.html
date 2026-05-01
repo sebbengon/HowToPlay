@@ -279,7 +279,7 @@ fetch("roles.json")
         // Namnlänk (fixar versal första bokstaven)
         function buildWikiId (role) {
         if (role.wikiId) return role.wikiId;
-        return wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
+        return role.id.charAt(0).toUpperCase() + role.id.slice(1);
         }
         const wikiId = buildWikiId (role);
         const nameLink = document.createElement("a");
