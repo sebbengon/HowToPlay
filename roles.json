@@ -118,7 +118,7 @@
     "otherNightReminder": "Om Fågeltämjaren förvisades inatt väljer den en spelare. Visa den spelarens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "Om du förvisas på natten, du vaknar för att välja en spelare: du får veta dess karaktär."
+    "ability": "Om du förvisas på natten, du vaknar, välja en spelare: du får veta dess karaktär."
   },
   {
     "id": "virgin",
