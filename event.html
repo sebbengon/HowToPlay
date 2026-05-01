@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   
-<link href="https://fonts.googleapis.com/css2?family=Cardo::wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -126,6 +126,47 @@ overflow-y: auto;
   background-color: #000;
   color: #fff;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 28px;
+}
+
+.character {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.character-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.character-name {
+  font-weight: bold;
+}
+
+.character-ability {
+  font-size: 10pt;
+  font-weight: 300;
+  color: #000;
+}
+
+/* TEAM-FÄRGER */
+
+.team-townsfolk { color: #1e4fd8; }
+.team-outsider  { color: #3aa0e6; }
+.team-minion    { color: #e67e22; }
+.team-demon     { color: #c0392b; }
+.team-traveler  { color: #7b3fb8; }
+
+.name-townsfolk { color: #1e4fd8; }
+.name-outsider  { color: #3aa0e6; }
+.name-minion    { color: #e67e22; }
+.name-demon     { color: #c0392b; }
+.name-traveler  { color: #7b3fb8; }
 
 @media (max-width: 768px) {
 
@@ -150,7 +191,7 @@ max-height: none;
   .content {
     max-width: 100%;
     margin: 0;
-    padding: 5;
+    padding: 5px;
     max-height: none;
 
     background: none;
@@ -183,56 +224,110 @@ max-height: none;
 <h1>KOMMANDE EVENT</H1>
 <P>Nästa omgång är den 10 maj som planen ser ut nu. Då spelar vi med följande manus. Första gången du är med? Läs då gärna igenom reglerna.</p>
 
-<div id="manus-display">
-    <h2 id="manus-title">KARAKTÄRER</h2>
+
+
+
+<h2 id="manus-title">MANUS</h2>
     
+<div id="rolls"></div>
 
-    <img id="manus-image" 
-         src="manus.png" 
-         alt="Bild 1"
-         style="width:100%; object-fit:contain; cursor:default;">
-</div>
 
-</div>
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+let ALL_CHARACTERS = [];
 
-    // Dina 3 slides
-    const slides = [
-        {
-            title: "KARAKTÄRER",
-            text: "Karaktärerna för aktuellt manus.",
-            img: "manus.png"
-        },
-        {
-            title: "NATTORDNING FÖRSTA NATTEN",
-            text: "Nattordningen för de karaktärer som vaknar första natten.",
-            img: "nattfas-1.png"
-        },
-        {
-            title: "NATTORDNING ÖVRIGA NÄTTER",
-            text: "Nattordningen för de karaktärer som vaknar övriga nätter.",
-            img: "nattfas-2.png"
-        }
-    ];
+async function loadCharacters() {
+  const res = await fetch("roles.json");
+  ALL_CHARACTERS = await res.json();
+}
 
-    let index = 0;  // start på slide 1
+async function loadScript() {
+  try {
+    const res = await fetch("manus.json");
+    const script = await res.json();
+    renderScript(script);
+  } catch (err) {
+    console.error("Kunde inte ladda manus.json", err);
+    document.getElementById("scriptTitle").textContent =
+      "Fel: kunde inte ladda manus.json";
+  }
+}
 
-    const titleEl = document.getElementById("manus-title");
-    
-    const imgEl  = document.getElementById("manus-image");
+const TEAM_NAMES = {
+  townsfolk: 'STADSBOR',
+  outsider:  'LANTBOR',
+  minion:    'KUMPANER',
+  demon:     'HÖGFÖRRÄDARE',
+  traveler:  'RESENÄRER'
+};
 
-    // Klick på bilden växlar slide
-    imgEl.addEventListener("click", () => {
-        index = (index + 1) % slides.length; // loop 0 → 1 → 2 → 0
+function changeTeamName(team) {
+  return TEAM_NAMES[team] ?? '';
+}
 
-        titleEl.innerHTML = slides[index].title;
- 
-        imgEl.src         = slides[index].img;
-        imgEl.alt         = "Bild " + (index + 1);
-    });
-
+window.addEventListener("DOMContentLoaded", async () => {
+  await loadCharacters();
+  await loadScript(); // 🔑 här sker autoladdning
 });
+
+function renderScript(script) {
+  const container = document.getElementById("rolls");
+  container.innerHTML = "";
+
+  const meta = script.find(x => typeof x === "object" && x.id === "_meta");
+  document.getElementById("manus-title").textContent =
+  meta?.name ?? "MANUS";
+
+  const ids = script.filter(x => typeof x === "string");
+
+  const lookup = Object.fromEntries(
+    ALL_CHARACTERS.map(c => [c.id, c])
+  );
+
+  const used = ids.map(id => lookup[id]).filter(Boolean);
+
+  const teams = {};
+  for (const c of used) {
+    teams[c.team] ??= [];
+    teams[c.team].push(c);
+  }
+
+  for (const [team, chars] of Object.entries(teams)) {
+    const section = document.createElement("section");
+
+    const h2 = document.createElement("h2");
+    h2.textContent = changeTeamName(team);
+    h2.classList.add(`team-${team}`);
+    section.appendChild(h2);
+
+    const grid = document.createElement("div");
+    grid.className = "grid";
+
+    for (const c of chars) {
+      const el = document.createElement("div");
+      el.className = "character";
+
+      el.innerHTML = `                
+<img
+  src="https://raw.githubusercontent.com/sebbengon/CotC/master/src/assets/icons/${c.id}.png"
+  alt="${c.name}"
+  class="character-icon"
+/>
+
+<div class="character-name name-${c.team}">
+  ${c.name}
+  <div class="character-ability">
+    ${c.ability}
+  </div>
+</div>
+      `;
+
+      grid.appendChild(el);
+    }
+
+    section.appendChild(grid);
+    container.appendChild(section);
+  }
+}
 </script>
 
 </body>
