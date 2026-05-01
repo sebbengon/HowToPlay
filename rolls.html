@@ -277,7 +277,9 @@ fetch("roles.json")
         item.classList.add("role-item");
 
         // Namnlänk (fixar versal första bokstaven)
-        const wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
+        function buildWikiId (role) {
+        if (role.wikiId return role.wikiId;
+        return wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
 
         const nameLink = document.createElement("a");
         nameLink.href = "https://wiki.bloodontheclocktower.com/" + wikiId;
