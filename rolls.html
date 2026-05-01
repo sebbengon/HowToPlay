@@ -281,7 +281,7 @@ fetch("roles.json")
         if (role.wikiId) return role.wikiId;
         return wikiId = role.id.charAt(0).toUpperCase() + role.id.slice(1);
         }
-        const wikiId = buildWikiId(role);
+        const wikiId = buildWikiId (role);
         const nameLink = document.createElement("a");
         nameLink.href = "https://wiki.bloodontheclocktower.com/" + wikiId;
         nameLink.target = "_blank";
