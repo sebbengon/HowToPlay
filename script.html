@@ -233,7 +233,7 @@ h2 {
 
 let ALL_CHARACTERS = [];
 
-async funktion loadCharacters() {
+async function loadCharacters() {
 const res = await fetch ("roles.json");
 ALL_CHARACTERS = await res.json();
 }
@@ -310,7 +310,7 @@ const ALWAYS_NIGHT_ACTIONS = [
 function changeTeamName(team) {
   return TEAM_NAMES[team] ?? '';
 }
-window.addEventListner("DOMContentLoaded", async() = 1 {
+window.addEventListener("DOMContentLoaded", async() = 1 {
 await loadCharacters();
 }
 
