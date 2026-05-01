@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,6 +128,7 @@ overflow-y: auto;
   color: #fff;
 }
 .grid {
+  font-family: 'Inter', sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px 28px;
@@ -176,7 +178,9 @@ overflow-y: auto;
     scrollbar-width: none;       /* Firefox */
     -ms-overflow-style: none;    /* IE/Edge */
   }
-  
+  .grid {
+  grid-template-columns: 1fr;
+}
 body::-webkit-scrollbar {
     display: none;               /* Chrome, Safari */
   }
