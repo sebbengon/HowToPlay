@@ -236,7 +236,7 @@
     "otherNightReminder": "Förgiftaren väljer en spelare.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Varje natt, välj en spelare: den blir förgiftad i natt och imorgon."
+    "ability": "Varje natt, välj en spelare: den blir förgiftad fram till skymmningen"
   },
   {
     "id": "spy",
@@ -290,7 +290,7 @@
     "otherNightReminder": "Hertigen väljer en spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbrickan från en Kumpan i rådet med en extra Hertigen-bricka. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt*, välj en spelare: den förvisas. Om du Förvisar dig själv, en Kumpan blir Hertigen."
+    "ability": "Varje natt*, välj en spelare: den förvisas. Förvisar du dig själv blir en Kumpan Hertigen."
   },
   {
     "id": "grandmother",
@@ -925,7 +925,7 @@
     "reminders": ["Förvisad",
         "En gång"],
     "setup": true,
-    "ability": "Varje natt*, välj en spelare: den förvisas. Första Lantbon som du förvisar blir Kammarherren. Du förvisas. [+1 Lantbo]"
+    "ability": "Varje natt*, välj en spelare: den förvisas. Första Lantbon du förvisar blir Kammarherren och du förvisas. [+1 Lantbo]"
   },
   {
     "id": "vigormortis",
