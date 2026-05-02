@@ -144,7 +144,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet,på dagen, välja öppet en spelare: är det Högförrädaren blir den förvisad."
+    "ability": "En gång under spelet, på dagen, välja öppet en spelare: är det Högförrädaren blir den förvisad."
   },
   {
     "id": "soldier",
