@@ -236,7 +236,7 @@
     "otherNightReminder": "Förgiftaren väljer en spelare.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Varje natt, välj en spelare: den blir förgiftad fram till skymmningen"
+    "ability": "Varje natt, välj en spelare: den blir förgiftad fram till skymmningen."
   },
   {
     "id": "spy",
