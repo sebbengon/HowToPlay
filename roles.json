@@ -491,7 +491,7 @@
     "otherNightReminder": "Om Tiggaren valde en Lojal spelare så förvisas den valda spelaren.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet: är den lojal förvisas den i natt."
+    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet: är den Lojal förvisas den i natt."
   },
   {
     "id": "goon",
