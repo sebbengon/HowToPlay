@@ -118,7 +118,7 @@
     "otherNightReminder": "Om Fågeltämjaren förvisades inatt väljer den en spelare. Visa den spelarens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "Om du förvisas på natten, du vaknar, välja en spelare: du får veta dess karaktär."
+    "ability": "Om du förvisas på natten*, du vaknar, välja en spelare: du får veta dess karaktär."
   },
   {
     "id": "virgin",
@@ -144,7 +144,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på dagen, välja öppet en spelare: är det Högförrädaren blir den förvisad."
+    "ability": "En gång under spelet, på dagen, välj öppet en spelare: är det Högförrädaren blir den förvisad."
   },
   {
     "id": "soldier",
