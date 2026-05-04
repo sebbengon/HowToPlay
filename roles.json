@@ -588,7 +588,7 @@
     "reminders": ["Förvisades idag",
         "Förvisad", "I Rådet"],
     "setup": false,
-    "ability": "Varje natt*, om ingen förvisade idag, välj en spelare: den förvisas. Första gången du avsätts är du i rådet men registreras som förvisad"
+    "ability": "Varje natt*, om ingen förvisades idag, välj en spelare: den förvisas. Första gången du blir avsatt är du kvar i rådet men registreras som förvisad"
   },
   {
     "id": "pukka",
