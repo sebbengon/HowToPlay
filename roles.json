@@ -250,7 +250,7 @@
     "reminders": [],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Varje natt, titta i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
+    "ability": "Varje natt, tittar du i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
   },
   {
     "id": "scarletwoman",
@@ -1685,7 +1685,7 @@
     "remindersGlobal": ["Känd"],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Första natten får du titta i Klockrådets Kodex, välje en spelare: den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
+    "ability": "Första natten, tittar du i Klockrådets Kodex, välje en spelare: den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
   },
 {
     "id": "wizard",
