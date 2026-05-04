@@ -170,7 +170,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Är det bara 3 spelare i rådet och ingen avsätts och förvisas, ditt lag vinner. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
+    "ability": "Är det bara 3 spelare i rådet och ingen avsätts och förvisas, vinner ditt lag. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
   },
   {
     "id": "butler",
