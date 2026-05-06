@@ -377,10 +377,10 @@ document.getElementById("manus-title").addEventListener("click", async () => {
 
     await navigator.clipboard.writeText(text);
 
-    const title = document.getElementById("manus.title");
+    const title = document.getElementById("manus-title");
     const original = title.textContent;
     title.textContent = "Kopierat!";
-    setTimeout(() => btn.textContent = "Kopiera manus", 1500);
+    setTimeout(() => title.textContent = "Kopiera manus", 1500);
 
   } catch (err) {
     console.error(err);
