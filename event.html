@@ -355,10 +355,22 @@ document.getElementById("copyjson").addEventListener("click", async () => {
       data.find(x => typeof x === "object" && x.id === "_meta"),
       ...data.filter(x => typeof x === "string")
     ];
-
+    
     const text = JSON.stringify(formatted, null, 2);
 
+if (navigator.clipboard && navigator.clipboard.writeText) {
     await navigator.clipboard.writeText(text);
+} else {
+      // Fallback för äldre iPads
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
 
     const title = document.getElementById("copyjson");
     const original = title.textContent;
