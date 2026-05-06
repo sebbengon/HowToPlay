@@ -42,6 +42,14 @@ html, body {
    font-weight: 300;
    text-align: left;
  }
+
+#manus-title {
+  cursor: pointer;
+}
+
+#manus-title:hover {
+  text-decoration: underline;
+}
   
 #manus-image {
   width: 100%;
@@ -354,7 +362,7 @@ function renderScript(script) {
     container.appendChild(section);
   }
 }
-document.getElementById("copy-manus-btn").addEventListener("click", async () => {
+document.getElementById("manus-title").addEventListener("click", async () => {
   try {
     const res = await fetch("manus.json");
     const data = await res.json();
@@ -369,8 +377,9 @@ document.getElementById("copy-manus-btn").addEventListener("click", async () => 
 
     await navigator.clipboard.writeText(text);
 
-    const btn = document.getElementById("copy-manus-btn");
-    btn.textContent = "Kopierat!";
+    const title = document.getElementById("manus.title");
+    const original = title.textContent;
+    title.textContent = "Kopierat!";
     setTimeout(() => btn.textContent = "Kopiera manus", 1500);
 
   } catch (err) {
