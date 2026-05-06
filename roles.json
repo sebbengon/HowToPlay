@@ -118,7 +118,7 @@
     "otherNightReminder": "Om Fågeltämjaren förvisades inatt väljer den en spelare. Visa den spelarens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "Om du förvisas på natten*, du vaknar, välj en spelare: du får veta dess karaktär."
+    "ability": "Om du förvisas på natten* vaknar du, välj en spelare: du får veta dess karaktär."
   },
   {
     "id": "virgin",
@@ -170,7 +170,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Är det bara 3 spelare i rådet och ingen avsätts och förvisas, vinner ditt lag. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
+    "ability": "Är det bara 3 spelare i rådet och ingen blir avsatt och förvisad vinner ditt lag. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
   },
   {
     "id": "butler",
@@ -250,7 +250,7 @@
     "reminders": [],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Varje natt, tittar du i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
+    "ability": "Varje natt, titta i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
   },
   {
     "id": "scarletwoman",
@@ -264,7 +264,7 @@
     "otherNightReminder": "Om Hertiginnan blev Högförrädaren så visa kortet DU ÄR och Högförrädarens karaktärskort.",
     "reminders": ["Är Högförrädaren"],
     "setup": false,
-    "ability": "Är det 5 eller fler spelare (ej resenärer) i rådet och Högförrädaren förvisas, du blir Högförrädaren."
+    "ability": "Är det 5 eller fler spelare (ej resenärer) i rådet och Högförrädaren förvisas, blir du Högförrädaren."
   },
   {
     "id": "baron",
