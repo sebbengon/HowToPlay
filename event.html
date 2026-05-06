@@ -129,6 +129,25 @@ overflow-y: auto;
   background-color: #000;
   color: #fff;
 }
+
+.nav-buttons button {
+  width: 160px;
+  text-align: center;
+  padding: 12px 10px;
+  font-weight: 700;
+  color: #000;
+  background-color: #5790ac;
+  border: 2px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .grid {
   font-family: 'Inter', sans-serif;
   display: grid;
@@ -226,6 +245,7 @@ max-height: none;
   <a href="regler.html">Regler</a>
   <a href="rolls.html">Karaktärer</a>
   <a href="uttryck.html">Uttryck</a>
+  <button id="copy-manus-btn">Kopiera manus</button>
 </div>
 <h1>KOMMANDE EVENT</H1>
 <P>Nästa omgång är söndagen den 10 maj som planen ser ut nu. Är det första gången du spelar så läs gärna igenom reglerna. Vi kommer spela med följande manus.</p>
@@ -334,6 +354,30 @@ function renderScript(script) {
     container.appendChild(section);
   }
 }
+document.getElementById("copy-manus-btn").addEventListener("click", async () => {
+  try {
+    const res = await fetch("manus.json");
+    const data = await res.json();
+
+    // säkra att _meta ligger först + snygg formatering
+    const formatted = [
+      data.find(x => typeof x === "object" && x.id === "_meta"),
+      ...data.filter(x => typeof x === "string")
+    ];
+
+    const text = JSON.stringify(formatted, null, 2);
+
+    await navigator.clipboard.writeText(text);
+
+    const btn = document.getElementById("copy-manus-btn");
+    btn.textContent = "Kopierat!";
+    setTimeout(() => btn.textContent = "Kopiera manus", 1500);
+
+  } catch (err) {
+    console.error(err);
+    alert("Kunde inte kopiera manus");
+  }
+});
 </script>
 
 </body>
