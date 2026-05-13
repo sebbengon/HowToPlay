@@ -1451,7 +1451,7 @@
     "otherNightReminder": "",
     "reminders": ["Vän"],
     "setup": false,
-    "ability": "Den första natten väljer du en spelare (inte dig själv); du får du samma tillhörighet (du vet inte vilken), även om du är berusad eller förgiftad."
+    "ability": "Den första natten väljer du en spelare (inte dig själv): du får du samma tillhörighet (du vet inte vilken), även om du är berusad eller förgiftad."
   },
 {
     "id": "plaguedoctor",
@@ -1518,7 +1518,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om det finns 5 eller fler spelare i rådet måste du alltid rösta för att avsätta."
+    "ability": "Finns det 5 eller fler spelare i rådet måste du alltid rösta för att avsätta."
   },
 {
     "id": "boffin",
