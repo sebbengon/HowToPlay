@@ -1333,7 +1333,7 @@
     "otherNightReminder": "Om det var Prinsessans första dag och spelaren nominerade den spelare som förvisades idag så vaknar Högförrädaren som vanligt, men ingen förvisas av Högförrädarens förmåga.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Om du nominerade en spelare, som blev avsatt och förvisad, din första dag kan Högförrädaren inte förvisa någon nästa natt"
+    "ability": "Om du nominerade en spelare, som blev avsatt, din första dag kan Högförrädaren inte förvisa någon nästa natt"
   },
 {
     "id": "shugenja",
