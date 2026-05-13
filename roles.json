@@ -356,7 +356,7 @@
     "reminders": ["Säker",
         "Berusad"],
     "setup": false,
-    "ability": "Varje natt*, välj 2 spelare: de kan inte förvisas i natt, men den ena är berusad till skymningen."
+    "ability": "Varje natt*, välj 2 spelare: de kan inte förvisas i natt, men den ena är berusad fram till skymningen."
   },
   {
     "id": "gambler",
@@ -656,7 +656,7 @@
     "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt, väljer en spelare (inte dig själv eller Resenärer): du får veta en karaktär för en Lojal och en Bedragare som den kan vara."
+    "ability": "Varje natt, välje en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, var av den ena är korrekt."
   },
   {
     "id": "snakecharmer",
@@ -697,7 +697,7 @@
     "reminders": ["HF Ja",
         "HF Nej"],
     "setup": false,
-    "ability": "Varje natt*, du får veta om en Högförrädare röstade idag."
+    "ability": "Varje natt* får du veta om en Högförrädare röstade idag."
   },
   {
     "id": "towncrier",
@@ -711,7 +711,7 @@
     "reminders": ["Kumpan Nej",
         "Kumpan Ja"],
     "setup": false,
-    "ability": "Varje natt*, du får veta om en Kumpan nominerade idag."
+    "ability": "Varje natt* får du veta om en Kumpan nominerade idag."
   },
   {
     "id": "oracle",
@@ -724,7 +724,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt*, du får veta hur många förvisade spelare som är Bedragare."
+    "ability": "Varje natt* får du veta hur många förvisade spelare som är Bedragare."
   },
   {
     "id": "savant",
@@ -737,7 +737,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag, prata med berättaren privat för att få 2 påståenden: 1 är sant och 1 är falskt."
+    "ability": "Varje dag, prata med berättaren privat för att få ett sant och ett falskt påstående."
   },
   {
     "id": "seamstress",
@@ -1008,7 +1008,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag, öppet gissa vilka spelare som är Kumpan(er) och Högförrädare(n). Om du har rätt vinner de Lojala."
+    "ability": "Varje dag, gissa öppet vilka spelare som är Kumpan(er) och Högförrädare(n). Om du har rätt vinner de Lojala."
   },
 {
     "id": "amnesiac",
@@ -1052,7 +1052,7 @@
         "Högförrädare",
         "Resenär"],
     "setup": true,
-    "ability": "Varje natt, du får veta en spelare med en annan karaktärstyp än igår. [+0 eller +1 Lantbo]"
+    "ability": "Varje natt får du veta en spelare med en annan karaktärstyp än igår. [+0 eller +1 Lantbo]"
   },
 {
     "id": "banshee",
@@ -1080,7 +1080,7 @@
     "otherNightReminder": "Om spelaren märkt KÄND förvisades idag eller inatt, peka på en ny spelare markerad KÄND.",
     "reminders": ["Känd"],
     "setup": true,
-    "ability": "Första natten får du veta en spelare som är Bedragare. Om den förvisas får du veta en annan Bedragare inatt. [1 Stadsbo är Bedragare]"
+    "ability": "Första natten får du veta en spelare som är Bedragare. Om den förvisas får du veta en annan Bedragare inatt. [en Stadsbo är Bedragare]"
   },
 {
     "id": "cannibal",
@@ -1092,9 +1092,10 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Förgiftad",
-        "Förvisades idag", "Är Andrafiolen"],
+        "Förvisades idag"],
+    "remindersGlobal": ["Är Andrafiolen"],
     "setup": false,
-    "ability": "Du har den förmågan som den spelare som sist avsattes och förvisades hade. Om den är Bedragare är du förgiftad tills en Lojal spelare avsätts och förvisas."
+    "ability": "Du har den senast avsatte och förvisade spelarens förmåga. Är den Bedragare är du förgiftad tills en Lojal spelare blir avsatt och förvisad."
   },
 {
     "id": "choirboy",
@@ -1147,7 +1148,7 @@
     "otherNightReminder": "Om Storbonden förvisades inatt, väck en Lojal spelare i  rådet. Visa kortet DU ÄR och Storbondens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "När du förvisas på natten: en lojal spelare i rådet blir Storbonden."
+    "ability": "När du förvisas på natten blir en lojal spelare i rådet Storbonden."
   },
  {
     "id": "fisherman",
@@ -1173,7 +1174,7 @@
     "otherNightReminder": "Ge en tumsignal.",
     "reminders": ["Ner", "Upp", "Osäker"],
     "setup": false,
-    "ability": "Varje natt, du får veta vilket lag som berättaren tror har övertaget: de Lojala, Bedragarna eller osäkert."
+    "ability": "Varje natt får du veta vilket lag som berättaren tror har övertaget - de Lojala, Bedragarna eller osäkert."
   },
 {
     "id": "highpriestess",
@@ -1187,7 +1188,7 @@
     "otherNightReminder": "Peka på en spelare",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt, får du veta vilken spelare berättaren tycker att du främst borde prata med."
+    "ability": "Varje natt får du veta vilken spelare berättaren tycker att du främst borde prata med."
   },
  {
     "id": "huntsman",
@@ -1213,7 +1214,7 @@
     "otherNightReminder": "Om minst lika många spelare är förvisade som i rådet, visa ett karaktärskort från en spelare i rådet.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt med minst lika många förvisade som spelare i rådet får du veta en karaktär i rådet. Högförrädaren vet att du är Kungens Hand."
+    "ability": "Varje natt, med lika många eller fler förvisade som spelare i rådet, får du veta en karaktär i rådet. Högförrädaren vet att du är Kungens Hand."
   },
 {
     "id": "knight",
