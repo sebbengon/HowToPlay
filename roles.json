@@ -856,7 +856,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "När du får veta att du förvisats, välj öppet en spelare i rådet: om den är Bedragare förlorar ditt lag."
+    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet: om den är Bedragare förlorar ditt lag."
   },
   {
     "id": "eviltwin",
@@ -1412,7 +1412,7 @@
     "otherNightReminder": "",
     "reminders": ["Hattbyte i natt"],
     "setup": false,
-    "ability": "Om du förvisas får Kumpanerna och Högförrädaren välja nya karaktärer (bedragare) att vara."
+    "ability": "När du förvisas får Kumpanerna och Högförrädaren välja nya karaktärer (bedragare) att vara."
   },
 {
     "id": "heretic",
@@ -1478,7 +1478,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om du är mest ansvarig för att ditt lag förlorade byter du lag och vinner, även om du är förvisad."
+    "ability": "Är du mest ansvarig för att ditt lag förlorade byter du lag och vinner, även om du är förvisad."
   },
 {
     "id": "puzzlemaster",
