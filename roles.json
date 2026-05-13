@@ -504,7 +504,7 @@
     "otherNightReminder": "",
     "reminders": ["Berusad"],
     "setup": false,
-    "ability": "Varje natt, den första spelaren som väljer dig med sin förmåga blir berusad fram till skymningen. Du får den tillhörigheten som spelaren har."
+    "ability": "Varje natt, den första spelaren som väljer dig med sin förmåga blir berusad fram till skymningen. Du får samma tillhörighet som den spelaren."
   },
   {
     "id": "lunatic",
