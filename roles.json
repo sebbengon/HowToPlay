@@ -1806,7 +1806,7 @@
     "remindersGlobal": ["Barnvakt",
         "Förvisad"],
     "setup": true,
-    "ability": "Varje natt, Kumpanerna väljer vem som vaktar Lillprinsen och är då Högförrädaren. Varje natt* kanske en spelare förvisas. [+1 Kumpan]"
+    "ability": "Varje natt väljer Kumpanerna vem som vaktar Lillprinsen och är då Högförrädaren. Varje natt* kanske en spelare förvisas. [+1 Kumpan]"
   },
 {
     "id": "lleech",
