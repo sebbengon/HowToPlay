@@ -465,7 +465,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Första gången du förvisas, du förvisas inte."
+    "ability": "Första gången du blir förvisad, förvisas du inte."
   },
   {
     "id": "tinker",
@@ -478,7 +478,7 @@
     "otherNightReminder": "Trädfällaren kanske förvisas.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Du kanske förvisas när som helst."
+    "ability": "Du kanske blir förvisad när som helst."
   },
   {
     "id": "moonchild",
@@ -1373,7 +1373,7 @@
     "otherNightReminder": "",
     "reminders": ["Berusad"],
     "setup": true,
-    "ability": "Varje natt väljer du en spelare; du får veta dess tillhörighet. [+0 till +2 extra Lösdrivare. En av de extra är berusad.]"
+    "ability": "Varje natt, välj en spelare: du får veta dess tillhörighet. [+0 till +2 extra Lösdrivare. En av de extra är berusad.]"
   },
 {
     "id": "damsel",
@@ -1412,7 +1412,7 @@
     "otherNightReminder": "",
     "reminders": ["Hattbyte i natt"],
     "setup": false,
-    "ability": "Om du förvisas får Kumpanerna och Högförrädaren välja nya Kumpaner och Högförrädare att vara."
+    "ability": "Om du förvisas får Kumpanerna och Högförrädaren välja nya karaktärer (bedragare) att vara."
   },
 {
     "id": "heretic",
