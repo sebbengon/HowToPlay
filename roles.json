@@ -750,7 +750,7 @@
     "otherNightReminder": "Sömmerskan kanske väljer 2 spelare. Nicka eller skaka på huvudet.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång per spel, på natten, välj 2 spelare (inte dig själv): du får veta om de har samma tillhörighet."
+    "ability": "En gång under spelet, på natten, välj 2 spelare (inte dig själv): du får veta om de har samma tillhörighet."
   },
   {
     "id": "philosopher",
@@ -765,7 +765,7 @@
     "remindersGlobal": ["Berusad",
         "Är Filosofen"],
     "setup": false,
-    "ability": "En gång per spel, på natten, välj en lojal karaktär: du får dess förmåga. Är karaktären i spel blir den spelaren berusad."
+    "ability": "En gång under spelet, på natten, välj en lojal karaktär: du får dess förmåga. Är karaktären i spel blir den spelaren berusad."
   },
   {
     "id": "artist",
@@ -778,7 +778,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång per spel, på dagen, ställ privat en ja- eller nej-fråga till berättaren."
+    "ability": "En gång under spelet, på dagen, ställ privat en ja- eller nej-fråga till berättaren."
   },
   {
     "id": "juggler",
@@ -921,7 +921,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 29,
-    "otherNightReminder": "Kammarherren väljer en spelare.  Om den valde spelaren är en Lantbo (endast en gång), byt ut Lantbons bricka mot den andra Kammarherren-brickan. Söv Kammarherren. Väck den valda spelaren. Visa kortet DU ÄR och Kammarherrens karaktärskort samt tummen ner.",
+    "otherNightReminder": "Kammarherren väljer en spelare. Om den valde spelaren är en Lantbo (endast en gång), byt ut Lantbons bricka mot den andra Kammarherren-brickan. Söv Kammarherren. Väck den valda spelaren. Visa kortet DU ÄR och Kammarherrens karaktärskort samt tummen ner.",
     "reminders": ["Förvisad",
         "En gång"],
     "setup": true,
@@ -935,7 +935,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 32,
-    "otherNightReminder": "Skattmästaren väljer en spelare.  Om den spelaren är en Kumpan, förgifta en Stadsbogranne. ",
+    "otherNightReminder": "Skattmästaren väljer en spelare. Om den spelaren är en Kumpan, förgifta en Stadsbogranne. ",
     "reminders": ["Förvisad",
         "Har Förmåga",
         "Förgiftad"],
