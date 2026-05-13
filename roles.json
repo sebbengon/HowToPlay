@@ -412,7 +412,7 @@
     "reminders": ["Återinsatt",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet på natten*, välj en förvisad spelare: om du väljer en Stadsbo återinsätts den i rådet."
+    "ability": "En gång under spelet på natten*, välj en förvisad spelare: är det en Stadsbo återinsätts den i rådet."
   },
   {
     "id": "minstrel",
@@ -425,7 +425,7 @@
     "otherNightReminder": "",
     "reminders": ["Alla är berusade"],
     "setup": false,
-    "ability": "När en Kumpan avsätts och förvisas blir alla andra spelare (ej Resenärer) berusade fram till skymningen imorgon."
+    "ability": "När en Kumpan blir avsatt och förvisad blir alla andra spelare (ej Resenärer) berusade fram till skymningen imorgon."
   },
   {
     "id": "tealady",
@@ -547,7 +547,7 @@
     "otherNightReminder": "Advokaten väljer en annan spelare i rådet än natten innan.",
     "reminders": ["Förvisas inte"],
     "setup": false,
-    "ability": "Varje natt, välj en spelare i rådet (inte samma som förra): om den avsätts imorgon förvisas den inte."
+    "ability": "Varje natt, välj en spelare i rådet (inte samma som förra): om den blir avsatt i morgon förvisas den inte."
   },
   {
     "id": "assassin",
@@ -574,7 +574,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om Högförrädaren avsätts och förvisas (så spelet skulle sluta), pågår spelet en dag till. Om en spelare avsätts och förvisas denna dag förlorar dess lag."
+    "ability": "Om Högförrädaren blir avsatt och förvisad (så spelet skulle sluta), pågår spelet en dag till. Om en spelare då blir avsatt och förvisad förlorar dess lag."
   },
   {
     "id": "zombuul",
@@ -616,7 +616,7 @@
     "reminders": ["Förvisad",
         "Återinsatt"],
     "setup": false,
-    "ability": "Varje natt*, välj 2 spelare: de förvisas. En av de förvisade spelare du valde igår natt kanske återinsätts i rådet."
+    "ability": "Varje natt*, välj 2 spelare: de förvisas. En av de förvisade spelare du valde igår natt kanske blir återinsatt i rådet."
   },
   {
     "id": "po",
@@ -630,7 +630,7 @@
     "reminders": ["Förvisad",
         "Förvisa 3X"],
     "setup": false,
-    "ability": "Varje natt*, du får välja en spelare: den förvisas. Om du inte valde någon förra natten, välj 3 spelare i natt."
+    "ability": "Varje natt* får du välja en spelare: den förvisas. Om du inte valde någon förra natten, välj 3 spelare i natt."
   },
   {
     "id": "clockmaker",
@@ -683,7 +683,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": ["Onormal"],
     "setup": false,
-    "ability": "Varje natt, du får veta hur många spelares förmågor som fungerat onormalt sedan gryningen på grund av andra spelares förmågor."
+    "ability": "Varje natt får du veta hur många spelares förmågor som fungerat onormalt sedan gryningen på grund av andra spelares förmågor."
   },
   {
     "id": "flowergirl",
@@ -830,7 +830,7 @@
     "otherNightReminder": "Om Bruden förvisades blev en spelare berusad direkt. Om du inte har markerat någon spelare än så gör det nu.",
     "reminders": ["Berusad"],
     "setup": false,
-    "ability": "När du blir förvisad: en spelare blir berusad för resten av spelet."
+    "ability": "När du blir förvisad, blir en spelare berusad resten av spelet."
   },
   {
     "id": "barber",
@@ -843,7 +843,7 @@
     "otherNightReminder": "Om Barberaren förvisades idag eller inatt, visa Högförrädaren kortet DU VALDES AV och Barberarens karaktärskort. Om Högförrädaren väljer 2 spelare, väck dem en i taget. Visa kortet DU ÄR och deras nya karaktärskort.",
     "reminders": ["Ny frisyr"],
     "setup": false,
-    "ability": "Om du förvisades idag eller i natt: Högförrädaren får välja 2 spelare (inte en annan Högförrädare) som byter karaktär med varandra."
+    "ability": "När du förvisas får Högförrädaren välja 2 spelare i natt (inte en annan Högförrädare): de byter karaktär med varandra."
   },
   {
     "id": "klutz",
