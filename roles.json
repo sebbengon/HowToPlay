@@ -398,7 +398,7 @@
         "Berusad 1",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet på natten, välj en karaktär: spelaren med karaktären, om någon, är berusad i tre dygn."
+    "ability": "En gång under spelet, på natten, välj en karaktär: spelaren med karaktären, om någon, är berusad i tre dygn."
   },
   {
     "id": "professor",
@@ -412,7 +412,7 @@
     "reminders": ["Återinsatt",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet på natten*, välj en förvisad spelare: är det en Stadsbo återinsätts den i rådet."
+    "ability": "En gång under spelet, på natten*, välj en förvisad spelare: är det en Stadsbo återinsätts den i rådet."
   },
   {
     "id": "minstrel",
@@ -561,7 +561,7 @@
     "reminders": ["Förvisad",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet på natten*, välj en spelare: den förvisas, även om den av någon anledning inte kunde förvisas."
+    "ability": "En gång under spelet, på natten*, välj en spelare: den förvisas, även om den av någon anledning inte kunde förvisas."
   },
   {
     "id": "mastermind",
@@ -656,7 +656,7 @@
     "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt, välje en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, var av den ena är korrekt."
+    "ability": "Varje natt, välj en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, var av den ena är korrekt."
   },
   {
     "id": "snakecharmer",
@@ -1135,7 +1135,7 @@
     "otherNightReminder": "Ingenjören kanske väljer Kumpaner eller en Högförrrädare. Söv Ingenjören. Väck berörda spelare en i taget, visa kortet DU ÄR och den nya karaktären. ",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten: välj vilka Kumpaner eller vilken Högförrädare som är i spel."
+    "ability": "En gång under spelet, på natten, välj vilka Kumpaner eller vilken Högförrädare som är i spel."
   },
 {
     "id": "farmer",
@@ -1161,7 +1161,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på dagen: be Berättaren om tips för att hjälpa ditt lag att vinna."
+    "ability": "En gång under spelet, på dagen, be Berättaren om tips för att hjälpa ditt lag att vinna."
   },
 {
     "id": "general",
