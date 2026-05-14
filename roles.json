@@ -1916,7 +1916,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om en spelare i ditt lag förvisas kanske du fördrivs istället."
+    "ability": "Om en spelare i ditt lag förvisas, kanske du fördrivs istället."
   },
   {
     "id": "beggar",
@@ -1957,7 +1957,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje dag efter den första avsättningen, får du nominera igen."
+    "ability": "Varje dag, efter att den första spelaren blivit avsatt, får du nominera igen."
   },
 {
     "id": "bonecollector",
@@ -2028,7 +2028,7 @@
     "reminders": ["Är Lärlingen"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Den första natten får du, en Stadsbos förmåga om du är Lojal, eller en Kumpans förmåga om du är Bedragare."
+    "ability": "Den första natten får du, en Stadsbos förmåga om du är Lojal, eller, en Kumpans förmåga om du är Bedragare."
   },
 {
     "id": "bishop",
@@ -2070,7 +2070,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje dag får du välja upp till tre par spelare: de byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
+    "ability": "Varje dag får du välja upp till 3 par spelare: de byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
   },
 {
     "id": "voudon",
