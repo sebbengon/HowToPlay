@@ -656,7 +656,7 @@
     "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt, välj en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, var av den ena är korrekt."
+    "ability": "Varje natt, välj en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, varav den ena är korrekt."
   },
   {
     "id": "snakecharmer",
