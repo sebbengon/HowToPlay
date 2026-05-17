@@ -765,7 +765,7 @@
     "remindersGlobal": ["Berusad",
         "Är Filosofen"],
     "setup": false,
-    "ability": "En gång under spelet, på natten, välj en lojal karaktär: du får dess förmåga. Är karaktären i spel blir den spelaren berusad."
+    "ability": "En gång under spelet, på natten, välj en Lojal karaktär: du får dess förmåga. Är karaktären i spel blir den spelaren berusad."
   },
   {
     "id": "artist",
